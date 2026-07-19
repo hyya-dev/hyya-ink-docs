@@ -1,0 +1,27 @@
+name: Bug report
+description: Something in hYYa ink isn't working right
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: hYYa ink version
+      description: Find it at the bottom of Settings (e.g. 1.1.1)
+    validations: { required: true }
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [macOS (App Store), macOS (direct download), iPad, iPhone]
+    validations: { required: true }
+  - type: input
+    id: format
+    attributes:
+      label: File format involved
+      description: e.g. PDF, Markdown, JSON, CSV
