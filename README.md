@@ -32,8 +32,11 @@ a paginated page — not raw syntax. Everything renders **locally and offline**.
 ## Supported formats
 
 Markdown · JSON · YAML · TOML · XML · CSV / TSV · **PDF** · Mermaid · Graphviz ·
-LaTeX · Typst · Jupyter notebooks · diff / patch · log files · AsciiDoc · Org-mode ·
+LaTeX · Jupyter notebooks · diff / patch · log files · AsciiDoc · Org-mode ·
 plain text · source code
+
+*Coming soon:* Typst and PlantUML are recognised and shown as source with a
+"coming soon" notice — rich rendering isn't implemented yet.
 
 Full breakdown of what each format renders → **[docs/FORMATS.md](docs/FORMATS.md)**
 

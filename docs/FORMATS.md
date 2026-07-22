@@ -26,8 +26,9 @@ Outline headings, TODO keywords, tables and source blocks rendered as a document
 ### LaTeX (`.tex`, `.latex`, `.sty`)
 Math and formulas typeset via KaTeX so equations read as equations, not macros.
 
-### Typst (`.typ`)
-Modern typesetting source, rendered.
+### Typst (`.typ`) — *coming soon*
+Recognised as Typst, with syntax-aware source display and an on-screen notice that
+rich rendering is on the way. Full typesetting is **not** implemented yet.
 
 ### Plain text & source code
 Syntax-aware display for source files, with the same export and preview pipeline.
@@ -69,6 +70,10 @@ from text, offline. The rendering bundle ships inside the app — no CDN, no net
 
 ### Graphviz / DOT (`.dot`, `.gv`)
 Graph layouts rendered natively from DOT source.
+
+### PlantUML (`.puml`, `.plantuml`, `.iuml`) — *coming soon*
+Recognised as PlantUML, with syntax-aware source display and an on-screen notice
+that rich rendering is on the way. Diagram rendering is **not** implemented yet.
 
 ---
 
