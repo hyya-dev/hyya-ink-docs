@@ -4,7 +4,7 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 
 ## 1.2.1 — in review
 
-**Markup comes to the Mac — and a fix for ink that could save invisibly.**
+**Markup comes to the Mac.**
 
 - **Handwritten markup on the Mac.** Write, highlight and annotate straight onto the
   page with your trackpad or mouse: pen, marker, pencil and eraser, five ink colours,
