@@ -2,6 +2,25 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.2.1 — in review
+
+**Markup comes to the Mac — and a fix for ink that could save invisibly.**
+
+- **Handwritten markup on the Mac.** Write, highlight and annotate straight onto the
+  page with your trackpad or mouse: pen, marker, pencil and eraser, five ink colours,
+  adjustable thickness, and undo stroke by stroke. One session can span several
+  pages, then saves once — the same as on iPad.
+- **Fixed: your handwriting could be saved invisibly.** With Dark Mode on, markup was
+  written into the page as **white** ink. It looked correct while you were drawing,
+  then disappeared from the saved file. Ink is now always saved in the colour you
+  chose. **If you marked up a PDF while in Dark Mode, please mark it up again** —
+  those strokes were not saved visibly. This affected iPhone and iPad in 1.2.0.
+
+> The Mac gets its own drawing surface rather than the iPad's: Apple's PencilKit
+> supplies the ink on macOS but no ready-made canvas or tool palette. The strokes are
+> the same real PencilKit ink, flattened into the page the same way, so a PDF marked
+> up on a Mac is indistinguishable from one marked up on an iPad.
+
 ## 1.2.0 — 2026-07-23
 
 **Mark up PDFs by hand.**
@@ -13,7 +32,8 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   annotation layer — so recipients can't strip your notes, no author metadata rides
   along in the file, and the marks render anywhere. They're permanent once
   committed; see [docs/PDF.md](docs/PDF.md).
-- Handwritten markup is **iPhone and iPad only** — the Mac app does not have it.
+- Handwritten markup is **iPhone and iPad only** in this version — the Mac gained it
+  in 1.2.1.
 - A new launch screen on iPhone and iPad (iOS 18+).
 - The formats guide now labels **Typst** and **PlantUML** as "coming soon", so it
   only promises what hYYa ink actually renders today.

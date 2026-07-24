@@ -63,8 +63,9 @@ No. hYYa ink registers as an *alternate* handler, so it shows up under **Open
 With** while Preview stays your default unless you change it yourself.
 
 ### Can I mark up a PDF by hand?
-Yes, on **iPhone and iPad** — with Apple Pencil or just your finger, using pen,
-marker and highlighter, across as many pages as you like in one session.
+Yes — on **Mac, iPhone and iPad**. Use Apple Pencil or your finger on iPhone and
+iPad, or your trackpad or mouse on the Mac, with pen, marker and highlighter across
+as many pages as you like in one session.
 
 Your handwriting is written into the page itself rather than added as a separate
 annotation layer. That means nobody on the receiving end can select your notes and
@@ -75,8 +76,9 @@ opened, and it's all done on your device with nothing uploaded.
 The flip side is that the marks are permanent once committed: you can undo while
 marking up, or undo the whole session right after tapping Done, but you can't
 reposition a stroke later. It behaves like a real pen. Note this is a visual mark,
-not encryption or a cryptographic signature — and it is **not** available in the
-Mac app.
+not encryption or a cryptographic signature.
+
+Markup came to the Mac in **1.2.1**; earlier Mac versions don't have it.
 
 ### Is the signature legally binding?
 It's a **visual** signature — equivalent to signing a printed page by hand, and it

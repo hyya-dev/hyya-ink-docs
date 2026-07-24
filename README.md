@@ -4,7 +4,8 @@
 
 hYYa ink is a native macOS, iPadOS and iOS app that opens developer, academic and
 everyday file formats as *rendered, editable documents* instead of walls of plain
-text — and it works with **PDFs** too: view, fill forms, sign by hand, and export.
+text — and it works with **PDFs** too: view, fill forms, sign by hand, mark up by
+hand, and export.
 
 **→ [Download and full details at hyya.com/hyya-ink.html](https://hyya.com/hyya-ink.html)**
 
@@ -23,7 +24,7 @@ a paginated page — not raw syntax. Everything renders **locally and offline**.
 |---|---|
 | 📄 **Read anything** | 18+ formats rendered natively — see [Supported formats](docs/FORMATS.md) |
 | ✍️ **Edit in place** | Markdown tools, JSON/YAML/TOML trees, CSV tables |
-| 🖊️ **PDF: fill & sign** | Type into forms, hand-sign in black or blue ink, export or print — see [PDF guide](docs/PDF.md) |
+| 🖊️ **PDF: fill, sign & mark up** | Type into forms, hand-sign in black or blue ink, annotate by hand on Mac, iPad and iPhone, export or print — see [PDF guide](docs/PDF.md) |
 | 🤖 **AI, your own key** | Explain, summarize, reformat, fix, diagram — bring your own API key, or use on-device Apple Intelligence |
 | 👁️ **Quick Look** | Space-bar preview for every supported format, straight from Finder |
 | 🔒 **Local-first** | No account, no server, no telemetry. Your documents never leave your device unless you run an AI action |

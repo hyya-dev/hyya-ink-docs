@@ -44,9 +44,12 @@ re-opening and sharing — it isn't a floating annotation that other viewers dro
 > **Note:** this is a *visual* signature — the handwritten-signature equivalent of
 > signing a printed page. It is not a cryptographic/PAdES digital signature.
 
-## Mark up by hand — iPhone & iPad
+## Mark up by hand — Mac, iPhone & iPad
 
-Handwritten annotation, the way you'd mark up a printed page.
+Handwritten annotation, the way you'd mark up a printed page. On **iPhone and iPad**
+since 1.2.0; on the **Mac** from 1.2.1.
+
+**On iPhone and iPad**
 
 1. Open a PDF and tap **Markup**
 2. Write with **Apple Pencil** — or just your finger, on any device
@@ -54,6 +57,22 @@ Handwritten annotation, the way you'd mark up a printed page.
 4. Move between pages with the **‹ 1/3 ›** arrows — one session can mark up as
    many pages as you like
 5. Tap **Done** to commit, or **Cancel** to discard everything
+
+**On the Mac**
+
+1. Open a PDF and click **Markup**
+2. Draw with your **trackpad or mouse**
+3. Pick pen, marker, pencil or eraser, one of five ink colours, and the thickness —
+   from hYYa ink's own tool bar at the bottom of the page
+4. Move between pages with the **‹ 1/3 ›** arrows, exactly as on iPad
+5. Click **Done** to commit, **Cancel** (or **Esc**) to discard everything
+
+The Mac has its own drawing surface because Apple's PencilKit provides the ink
+itself but no ready-made canvas or tool palette on macOS. The strokes are the same
+real PencilKit ink as on iPad, flattened into the page the same way — so a document
+marked up on a Mac is indistinguishable from one marked up on an iPad. Since a mouse
+reports no pressure, stroke width follows your **speed** instead: move quickly and
+the line tapers, like a real pen.
 
 Your handwriting is **written into the page content**, exactly like a signature.
 That's what makes it survive saving, exporting, printing and opening in other PDF
@@ -71,8 +90,8 @@ can quietly drop.
   nothing like that riding along inside the file you send.
 - **It renders everywhere.** Export it, print it, email it, open it on Windows —
   the marks are simply part of the document.
-- **It never leaves your device.** Markup is applied entirely on your iPhone or
-  iPad; nothing is uploaded.
+- **It never leaves your device.** Markup is applied entirely on your Mac, iPhone
+  or iPad; nothing is uploaded.
 
 The flip side is the same property: because the ink becomes part of the page, you
 can't reposition or rub out a stroke later. Undo works while you're marking up, and
@@ -82,8 +101,9 @@ are permanent, exactly as if you'd used a real pen on paper.
 > **To be clear about what this is not:** handwritten markup is a *visual* mark. It
 > is not encryption, and not a cryptographic (PAdES) digital signature.
 
-> **iPhone and iPad only.** Handwritten markup is built on PencilKit and has no
-> equivalent in the Mac app, so the Mac version does not have this feature.
+> **Was iPhone and iPad only.** Until 1.2.1 the Mac app had no handwritten markup.
+> It does now — with its own trackpad/mouse tool bar. If you're on an older Mac
+> version, update to 1.2.1.
 
 ## Undo and redo
 
@@ -110,7 +130,7 @@ Exporting to PDF is **free**.
 | Export / print any document to PDF | ✅ | ✅ |
 | Fill in forms and flat paperwork | | ✅ |
 | Sign by hand | | ✅ |
-| Mark up by hand *(iPhone & iPad)* | | ✅ |
+| Mark up by hand *(Mac, iPhone & iPad)* | | ✅ |
 | AI actions | | ✅ |
 
 Pro is a **one-time purchase**, not a subscription, and unlocks across your Mac,
