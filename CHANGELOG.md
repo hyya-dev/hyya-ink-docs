@@ -10,11 +10,8 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   page with your trackpad or mouse: pen, marker, pencil and eraser, five ink colours,
   adjustable thickness, and undo stroke by stroke. One session can span several
   pages, then saves once — the same as on iPad.
-- **Fixed: your handwriting could be saved invisibly.** With Dark Mode on, markup was
-  written into the page as **white** ink. It looked correct while you were drawing,
-  then disappeared from the saved file. Ink is now always saved in the colour you
-  chose. **If you marked up a PDF while in Dark Mode, please mark it up again** —
-  those strokes were not saved visibly. This affected iPhone and iPad in 1.2.0.
+- Markup ink is now always saved in the colour you chose, in every appearance —
+  including Dark Mode.
 
 > The Mac gets its own drawing surface rather than the iPad's: Apple's PencilKit
 > supplies the ink on macOS but no ready-made canvas or tool palette. The strokes are
