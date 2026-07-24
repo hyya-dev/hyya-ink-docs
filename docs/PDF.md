@@ -60,11 +60,27 @@ That's what makes it survive saving, exporting, printing and opening in other PD
 apps — the ink is part of the document, not a floating annotation another viewer
 can quietly drop.
 
-> **The trade-off, stated plainly:** because the ink is flattened into the page, it
-> is **not re-editable afterwards** — you can't select a stroke later to move or
-> delete it. Undo works while you're still marking up, and the whole commit is a
-> single undo step, so you can reverse it immediately after tapping Done. Beyond
-> that, the marks are permanent.
+**Why it works this way — and why that's the point:**
+
+- **Nobody can strip your marks.** Most PDF apps store annotations as a separate
+  layer, and most let a recipient select one and delete it — or "remove all
+  comments" in a single click. Ink written into the page isn't a removable object,
+  so it can't be quietly taken out.
+- **No hidden author data travels with it.** PDF comment layers routinely embed the
+  author's name and timestamps. There's no annotation object here, so there's
+  nothing like that riding along inside the file you send.
+- **It renders everywhere.** Export it, print it, email it, open it on Windows —
+  the marks are simply part of the document.
+- **It never leaves your device.** Markup is applied entirely on your iPhone or
+  iPad; nothing is uploaded.
+
+The flip side is the same property: because the ink becomes part of the page, you
+can't reposition or rub out a stroke later. Undo works while you're marking up, and
+the whole session can be undone right after you tap **Done** — after that the marks
+are permanent, exactly as if you'd used a real pen on paper.
+
+> **To be clear about what this is not:** handwritten markup is a *visual* mark. It
+> is not encryption, and not a cryptographic (PAdES) digital signature.
 
 > **iPhone and iPad only.** Handwritten markup is built on PencilKit and has no
 > equivalent in the Mac app, so the Mac version does not have this feature.

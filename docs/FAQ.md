@@ -64,10 +64,19 @@ With** while Preview stays your default unless you change it yourself.
 
 ### Can I mark up a PDF by hand?
 Yes, on **iPhone and iPad** — with Apple Pencil or just your finger, using pen,
-marker and highlighter. One session can span several pages. Your handwriting is
-written into the page itself, so it survives export, printing and other PDF
-viewers — which also means it can't be moved or erased afterwards, only undone
-before you commit it. Handwritten markup is **not** available in the Mac app.
+marker and highlighter, across as many pages as you like in one session.
+
+Your handwriting is written into the page itself rather than added as a separate
+annotation layer. That means nobody on the receiving end can select your notes and
+delete them — which is easy to do in most PDF apps — and no author name or comment
+metadata travels inside the file. It also renders identically anywhere the PDF is
+opened, and it's all done on your device with nothing uploaded.
+
+The flip side is that the marks are permanent once committed: you can undo while
+marking up, or undo the whole session right after tapping Done, but you can't
+reposition a stroke later. It behaves like a real pen. Note this is a visual mark,
+not encryption or a cryptographic signature — and it is **not** available in the
+Mac app.
 
 ### Is the signature legally binding?
 It's a **visual** signature — equivalent to signing a printed page by hand, and it
