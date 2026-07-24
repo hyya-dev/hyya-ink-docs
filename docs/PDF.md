@@ -1,4 +1,4 @@
-# PDF: view, fill, sign, export
+# PDF: view, fill, sign, mark up, export
 
 hYYa ink treats PDFs as first-class documents on Mac, iPad and iPhone. Everything
 happens **on your device** — no upload, no cloud conversion service, no account.
@@ -44,6 +44,31 @@ re-opening and sharing — it isn't a floating annotation that other viewers dro
 > **Note:** this is a *visual* signature — the handwritten-signature equivalent of
 > signing a printed page. It is not a cryptographic/PAdES digital signature.
 
+## Mark up by hand — iPhone & iPad
+
+Handwritten annotation, the way you'd mark up a printed page.
+
+1. Open a PDF and tap **Markup**
+2. Write with **Apple Pencil** — or just your finger, on any device
+3. Choose pen, marker or highlighter from the system tool palette
+4. Move between pages with the **‹ 1/3 ›** arrows — one session can mark up as
+   many pages as you like
+5. Tap **Done** to commit, or **Cancel** to discard everything
+
+Your handwriting is **written into the page content**, exactly like a signature.
+That's what makes it survive saving, exporting, printing and opening in other PDF
+apps — the ink is part of the document, not a floating annotation another viewer
+can quietly drop.
+
+> **The trade-off, stated plainly:** because the ink is flattened into the page, it
+> is **not re-editable afterwards** — you can't select a stroke later to move or
+> delete it. Undo works while you're still marking up, and the whole commit is a
+> single undo step, so you can reverse it immediately after tapping Done. Beyond
+> that, the marks are permanent.
+
+> **iPhone and iPad only.** Handwritten markup is built on PencilKit and has no
+> equivalent in the Mac app, so the Mac version does not have this feature.
+
 ## Undo and redo
 
 Dedicated **undo and redo buttons** in the toolbar — no keyboard required, which
@@ -69,6 +94,7 @@ Exporting to PDF is **free**.
 | Export / print any document to PDF | ✅ | ✅ |
 | Fill in forms and flat paperwork | | ✅ |
 | Sign by hand | | ✅ |
+| Mark up by hand *(iPhone & iPad)* | | ✅ |
 | AI actions | | ✅ |
 
 Pro is a **one-time purchase**, not a subscription, and unlocks across your Mac,

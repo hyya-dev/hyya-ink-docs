@@ -10,7 +10,6 @@ text — and it works with **PDFs** too: view, fill forms, sign by hand, and exp
 
 [![Mac App Store](https://img.shields.io/badge/Mac%20App%20Store-Download-0071e3)](https://hyya.com/hyya-ink.html)
 [![App Store](https://img.shields.io/badge/iPhone%20%26%20iPad-App%20Store-0071e3)](https://hyya.com/hyya-ink.html)
-[![Direct download](https://img.shields.io/badge/macOS-Direct%20DMG-333)](https://hyya.com/hyya-ink.html)
 
 ---
 
@@ -42,7 +41,7 @@ Full breakdown of what each format renders → **[docs/FORMATS.md](docs/FORMATS.
 
 ## Platforms
 
-- **macOS** 14+ — Mac App Store, or a notarized direct DMG with auto-updates
+- **macOS** 14+ — Mac App Store
 - **iPadOS / iOS** 17+ — App Store (Universal Purchase with the Mac app)
 
 ## Pricing

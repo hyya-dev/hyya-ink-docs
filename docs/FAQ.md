@@ -13,11 +13,10 @@ one-time purchase**.
 No. The Mac App Store and iOS apps are a **Universal Purchase** — buy once with
 your Apple Account and Pro unlocks on your Mac, iPad and iPhone.
 
-### What's the difference between the App Store version and the direct download?
-They're the same app through two storefronts. The **App Store** version unlocks via
-in-app purchase. The **direct DMG** from hyya.com unlocks with a license key and
-updates itself automatically. Because Apple and the direct store are separate
-systems, a purchase in one does not carry to the other.
+### Where do I get hYYa ink?
+From the **App Store only** — one listing covers Mac, iPad and iPhone. There was a
+direct `.dmg` download for Mac with its own license key; that was retired in July
+2026, so there is now a single app and a single purchase to keep track of.
 
 ### Is there a trial?
 Yes — a full-featured trial so you can try editing, signing and AI before deciding.
@@ -62,6 +61,13 @@ any supported file previews it rendered, without opening the app.
 ### Will it take over as my default PDF app?
 No. hYYa ink registers as an *alternate* handler, so it shows up under **Open
 With** while Preview stays your default unless you change it yourself.
+
+### Can I mark up a PDF by hand?
+Yes, on **iPhone and iPad** — with Apple Pencil or just your finger, using pen,
+marker and highlighter. One session can span several pages. Your handwriting is
+written into the page itself, so it survives export, printing and other PDF
+viewers — which also means it can't be moved or erased afterwards, only undone
+before you commit it. Handwritten markup is **not** available in the Mac app.
 
 ### Is the signature legally binding?
 It's a **visual** signature — equivalent to signing a printed page by hand, and it
