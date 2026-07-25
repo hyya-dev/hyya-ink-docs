@@ -35,8 +35,10 @@ unless you explicitly run an AI action. When you do, only the open document's te
 goes to the provider *you* configured with *your* key. hYYa ink has no AI server of
 its own and never proxies your content.
 
-On devices with Apple Intelligence, some AI work can run **entirely on-device**
-with no network at all.
+Want no network at all? On **macOS** you can point hYYa ink at a local model server
+(Ollama or LM Studio) running on your own Mac — then nothing leaves the machine. Local
+servers aren't reachable on iPhone or iPad, so every provider choice there is a cloud
+one. hYYa ink has **no on-device AI model of its own** on any platform.
 
 ### Where is my API key stored?
 In the system keychain on your device. It is never transmitted to hYYa.
