@@ -78,7 +78,7 @@ marking up, or undo the whole session right after tapping Done, but you can't
 reposition a stroke later. It behaves like a real pen. Note this is a visual mark,
 not encryption or a cryptographic signature.
 
-Markup came to the Mac in **1.2.1**; earlier Mac versions don't have it.
+Markup came to the Mac in **1.2.1** — update if you're on an earlier Mac version.
 
 ### Is the signature legally binding?
 It's a **visual** signature — equivalent to signing a printed page by hand, and it

@@ -47,7 +47,7 @@ re-opening and sharing — it isn't a floating annotation that other viewers dro
 ## Mark up by hand — Mac, iPhone & iPad
 
 Handwritten annotation, the way you'd mark up a printed page. On **iPhone and iPad**
-since 1.2.0; on the **Mac** from 1.2.1.
+since 1.2.0; on the **Mac** since 1.2.1.
 
 **On iPhone and iPad**
 
@@ -101,9 +101,8 @@ are permanent, exactly as if you'd used a real pen on paper.
 > **To be clear about what this is not:** handwritten markup is a *visual* mark. It
 > is not encryption, and not a cryptographic (PAdES) digital signature.
 
-> **Was iPhone and iPad only.** Until 1.2.1 the Mac app had no handwritten markup.
-> It does now — with its own trackpad/mouse tool bar. If you're on an older Mac
-> version, update to 1.2.1.
+> **Was iPhone and iPad only.** Before 1.2.1 the Mac app had no handwritten markup.
+> It does now, with its own trackpad/mouse tool bar — update to 1.2.1 or later.
 
 ## Undo and redo
 

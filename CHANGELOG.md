@@ -2,7 +2,7 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 1.2.1 — in review
+## 1.2.1 — 2026-07-25
 
 **Markup comes to the Mac.**
 
