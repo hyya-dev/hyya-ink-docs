@@ -40,6 +40,44 @@ Want no network at all? On **macOS** you can point hYYa ink at a local model ser
 servers aren't reachable on iPhone or iPad, so every provider choice there is a cloud
 one. hYYa ink has **no on-device AI model of its own** on any platform.
 
+### macOS says "Apple could not verify … is free of malware" when I set hYYa ink to open a file
+
+This is a **macOS Gatekeeper behaviour, not a hYYa ink problem** — it happens with any
+third-party app, and Apple's Developer Technical Support has confirmed it is
+intentional. It is triggered when a file has **both**:
+
+1. a `com.apple.quarantine` extended attribute, and
+2. a per-file **"Open With" / "Always Open With"** binding pointing at a specific app.
+
+Launch Services then classifies the file as `LSRiskCategoryHasRedirectedBinding`, which
+makes Gatekeeper refuse to open it. It reproduces with a plain text file and any app —
+nothing about the document or the app is actually wrong.
+
+The confusing part is that the quarantine flag does **not** mean "downloaded from the
+internet". macOS adds it to *any* file written by a sandboxed app — so a PDF you
+exported yourself from another Mac App Store app carries it too.
+
+⚠️ **In that dialog, the highlighted button is "Move to Trash".** It deletes a
+perfectly good document. Click **Done** instead.
+
+**What works:**
+
+- **Open from inside hYYa ink** — File ▸ Open, or drag the file onto the window or the
+  app icon. This bypasses the Launch Services binding entirely and always works.
+- **Clear the flag** on files you trust, in Terminal:
+  ```
+  xattr -d com.apple.quarantine "/path/to/file.pdf"
+  ```
+  or for a whole folder you own: `xattr -cr "/path/to/folder"`
+- **Set the default for the file *type*** rather than for the one file: Get Info ▸
+  Open with ▸ hYYa ink ▸ **Change All…**
+- If the alert has just appeared, **System Settings ▸ Privacy & Security** may briefly
+  offer **Open Anyway**.
+
+hYYa ink cannot suppress this from inside the app: a sandboxed app is not permitted to
+remove the quarantine attribute, and the block happens before the app is even handed
+the file.
+
 ### Where is my API key stored?
 In the system keychain on your device. It is never transmitted to hYYa.
 
