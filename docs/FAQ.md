@@ -40,43 +40,45 @@ Want no network at all? On **macOS** you can point hYYa ink at a local model ser
 servers aren't reachable on iPhone or iPad, so every provider choice there is a cloud
 one. hYYa ink has **no on-device AI model of its own** on any platform.
 
-### macOS says "Apple could not verify … is free of malware" when I set hYYa ink to open a file
+### macOS says "Apple could not verify … is free of malware" when I open a file with hYYa ink
 
-This is a **macOS Gatekeeper behaviour, not a hYYa ink problem** — it happens with any
-third-party app, and Apple's Developer Technical Support has confirmed it is
-intentional. It is triggered when a file has **both**:
+**The fix: make hYYa ink the *default* app for that file type.** Not for the one file —
+for the type. Get Info (⌘I) ▸ **Open with** ▸ hYYa ink ▸ **Change All…** ▸ Continue.
+After that, files of that type open in hYYa ink with no warning, ever.
 
-1. a `com.apple.quarantine` extended attribute, and
-2. a per-file **"Open With" / "Always Open With"** binding pointing at a specific app.
+**Why that works, and why the warning appears at all.** Gatekeeper does not object to
+hYYa ink, and it does not object to your file. It objects to the *combination* of a
+quarantined file **plus a per-file "Open With" override**. Launch Services labels that
+combination `LSRiskCategoryHasRedirectedBinding` and refuses to open it. Apple's
+Developer Technical Support has confirmed this is intentional, and it reproduces with a
+plain text file and any third-party app — it is not specific to hYYa ink.
 
-Launch Services then classifies the file as `LSRiskCategoryHasRedirectedBinding`, which
-makes Gatekeeper refuse to open it. It reproduces with a plain text file and any app —
-nothing about the document or the app is actually wrong.
+So the app that opens your files "with no problem" is simply the app that is currently
+the **default** for that type. Make hYYa ink the default and it behaves exactly the
+same way. (Demonstrable: on a Mac where hYYa ink is already the default for JSON, a
+quarantined `.json` opens instantly with no warning, while the same quarantined file
+forced open via "Always Open With" is blocked.)
 
-The confusing part is that the quarantine flag does **not** mean "downloaded from the
+The other confusing part: the quarantine flag does **not** mean "downloaded from the
 internet". macOS adds it to *any* file written by a sandboxed app — so a PDF you
 exported yourself from another Mac App Store app carries it too.
 
-⚠️ **In that dialog, the highlighted button is "Move to Trash".** It deletes a
-perfectly good document. Click **Done** instead.
+⚠️ **In that dialog the highlighted button is "Move to Trash"** — it deletes a
+perfectly good document. Click **Done**.
 
-**What works:**
+**Other ways through it:**
 
 - **Open from inside hYYa ink** — File ▸ Open, or drag the file onto the window or the
-  app icon. This bypasses the Launch Services binding entirely and always works.
-- **Clear the flag** on files you trust, in Terminal:
-  ```
-  xattr -d com.apple.quarantine "/path/to/file.pdf"
-  ```
-  or for a whole folder you own: `xattr -cr "/path/to/folder"`
-- **Set the default for the file *type*** rather than for the one file: Get Info ▸
-  Open with ▸ hYYa ink ▸ **Change All…**
+  app icon. This bypasses Launch Services bindings and always works.
+- **Clear the flag** on files you trust: `xattr -d com.apple.quarantine "file.pdf"`, or
+  for a folder you own, `xattr -cr "/path/to/folder"`.
 - If the alert has just appeared, **System Settings ▸ Privacy & Security** may briefly
   offer **Open Anyway**.
 
-hYYa ink cannot suppress this from inside the app: a sandboxed app is not permitted to
-remove the quarantine attribute, and the block happens before the app is even handed
-the file.
+hYYa ink cannot set itself as your default handler, and cannot clear the warning: the
+App Sandbox forbids apps from changing file-type bindings (there is no entitlement for
+it), and the block happens before the app is handed the file. That choice is yours to
+make, by design.
 
 ### Where is my API key stored?
 In the system keychain on your device. It is never transmitted to hYYa.
