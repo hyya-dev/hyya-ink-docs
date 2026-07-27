@@ -35,8 +35,13 @@ Markdown · JSON · YAML · TOML · XML · CSV / TSV · **PDF** · Mermaid · Gr
 LaTeX · Jupyter notebooks · diff / patch · log files · AsciiDoc · Org-mode ·
 plain text · source code
 
-*Coming soon:* Typst and PlantUML are recognised and shown as source with a
-"coming soon" notice — rich rendering isn't implemented yet.
+*Coming soon:* **Typst** is recognised and shown as source with a "coming soon"
+notice — rich rendering isn't implemented yet.
+
+PlantUML (`.puml`) files are recognised and opened as readable source, but rendering
+PlantUML diagrams is **not planned** — the engine is Java, and no build of it is
+licensable for a commercial app. For diagrams that render today, use **Mermaid** or
+**Graphviz**.
 
 Full breakdown of what each format renders → **[docs/FORMATS.md](docs/FORMATS.md)**
 

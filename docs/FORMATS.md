@@ -71,13 +71,15 @@ from text, offline. The rendering bundle ships inside the app — no CDN, no net
 ### Graphviz / DOT (`.dot`, `.gv`)
 Graph layouts rendered natively from DOT source.
 
-### PlantUML (`.puml`, `.plantuml`, `.iuml`) — *coming soon*
-Recognised as PlantUML, with syntax-aware source display and an on-screen notice
-that rich rendering is on the way. Diagram rendering is **not** implemented yet.
+### PlantUML (`.puml`, `.plantuml`, `.iuml`) — source only, rendering not planned
+Recognised as PlantUML and opened as readable, syntax-aware source. **Rendering
+PlantUML diagrams is not planned.** PlantUML's engine is Java, and the browser builds
+that would let it run offline are not licensable for a commercial app — the CheerpJ
+build is explicitly non-commercial, and a server-side renderer would mean sending your
+diagram source off your device, which hYYa ink will not do.
 
----
-
-## Engineering files
+For diagrams that render today, use **Mermaid** or **Graphviz** — both render locally
+and offline.
 
 ### Diff & patch (`.diff`, `.patch`)
 Colour-coded additions and deletions with hunk headers, so a patch reads like a
