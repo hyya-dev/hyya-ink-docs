@@ -35,8 +35,11 @@ Markdown · JSON · YAML · TOML · XML · CSV / TSV · **PDF** · Mermaid · Gr
 LaTeX · Jupyter notebooks · diff / patch · log files · AsciiDoc · Org-mode ·
 plain text · source code
 
-*Coming soon:* **Typst** is recognised and shown as source with a "coming soon"
-notice — rich rendering isn't implemented yet.
+Typst (`.typ`) files are recognised and opened as readable source, but rendering
+Typst documents is **not planned** — not a licensing question (Typst is Apache-2.0
+and its fonts are freely embeddable) but a size one: the WASM compiler alone is 27 MB,
+plus 5–7 MB of fonts that must ship inside the app because every hYYa ink renderer
+works offline. That is roughly 6× the entire current renderer payload.
 
 PlantUML (`.puml`) files are recognised and opened as readable source, but rendering
 PlantUML diagrams is **not planned** — the engine is Java, and no build of it is

@@ -26,9 +26,15 @@ Outline headings, TODO keywords, tables and source blocks rendered as a document
 ### LaTeX (`.tex`, `.latex`, `.sty`)
 Math and formulas typeset via KaTeX so equations read as equations, not macros.
 
-### Typst (`.typ`) — *coming soon*
-Recognised as Typst, with syntax-aware source display and an on-screen notice that
-rich rendering is on the way. Full typesetting is **not** implemented yet.
+### Typst (`.typ`) — source only, rendering not planned
+Recognised as Typst and opened as readable, syntax-aware source. **Rendering Typst
+documents is not planned.** This is not a licensing question — Typst is Apache-2.0 and
+embeddable in commercial software, and its fonts are SIL OFL, GUST-LPPL and Bitstream
+Vera, so the licence cost is nothing. It is a size question: the WASM compiler alone is
+27 MB, and 5–7 MB of fonts have to be bundled with it, because `typst.ts` fetches fonts
+over the network by default and every hYYa ink renderer works offline. Together that is
+roughly 6× the entire current offline renderer payload, which covers four formats in
+5.8 MB.
 
 ### Plain text & source code
 Syntax-aware display for source files, with the same export and preview pipeline.
