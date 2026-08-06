@@ -4,8 +4,8 @@
 
 hYYa ink is a native macOS, iPadOS and iOS app that opens developer, academic and
 everyday file formats as *rendered, editable documents* instead of walls of plain
-text — and it works with **PDFs** too: view, fill forms, sign by hand, mark up by
-hand, and export.
+text — and it works with **PDFs** too: view, add text anywhere on the page, sign by
+hand, mark up by hand, and export.
 
 **→ [Download and full details at hyya.com/hyya-ink.html](https://hyya.com/hyya-ink.html)**
 

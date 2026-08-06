@@ -2,6 +2,39 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.2.5 — 2026-08-02
+
+**Both platforms back in step.**
+
+- iPhone and iPad gain everything the Mac received in 1.2.3 and 1.2.4 — the light
+  theme fixes, the undo rework and the large-document crash fix below.
+- The Add Text field on a PDF is readable again, and the text no longer freezes in
+  place once you tap Done.
+
+> 1.2.2 was withdrawn before release and never shipped on either platform. 1.2.3 and
+> 1.2.4 reached the Mac only while the iPhone and iPad release was held; 1.2.5 puts
+> every platform back on the same version.
+
+## 1.2.4 — 2026-08-01 · Mac only
+
+- Large documents no longer crash the app.
+
+## 1.2.3 — 2026-07-30 · Mac only
+
+**Light mode fixed.**
+
+- The light themes were unusable. In Classic Light, source text rendered almost
+  white-on-white, and cards and code blocks were the same pure white as the
+  background behind them. Both now have a real contrast ladder.
+- Undo is wired to ⌘Z, routed through the same per-entry undo the toolbar button uses.
+- **The redo button is gone.** Undo steps back through your edits; there is no redo.
+- **Handwritten markup now stays adjustable.** Your ink remains editable for as long
+  as the document is open, and nothing is written until you save. Saving writes a new
+  PDF and leaves your original untouched — and only in that saved copy is the ink part
+  of the page. This replaces the behaviour described under 1.2.0 and 1.2.1 below,
+  where ink was committed into the page as you drew and could not be adjusted
+  afterwards.
+
 ## 1.2.1 — 2026-07-25
 
 **Markup comes to the Mac.**
@@ -32,8 +65,10 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 - Handwritten markup is **iPhone and iPad only** in this version — the Mac gained it
   in 1.2.1.
 - A new launch screen on iPhone and iPad (iOS 18+).
-- The formats guide now labels **Typst** and **PlantUML** as "coming soon", so it
-  only promises what hYYa ink actually renders today.
+- The formats guide is clearer about which formats render and which open as source.
+  ⚠️ This release labelled **Typst** and **PlantUML** as "coming soon". That promise
+  has since been retracted: neither is planned, both open as readable, syntax-aware
+  source, and rendering them was ruled out — see [docs/FORMATS.md](docs/FORMATS.md).
 - Small fixes and refinements.
 
 > The direct `.dmg` download for Mac was retired with this release. hYYa ink now
@@ -53,7 +88,9 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 **PDF arrives.**
 
 - Open any PDF as a first-class document.
-- Fill forms and flat paperwork: tap anywhere and type, then drag to reposition.
+- Add text anywhere on a PDF: tap the exact spot you want and type, then drag to
+  reposition. hYYa ink detects no form fields — you place every piece of text
+  yourself, which is what lets it work on scans and flat paperwork as well.
 - Sign by hand in black or blue ink; resize, rotate and place your signature.
 - Undo and redo buttons for PDF edits.
 - Export or print any supported document to a clean, paginated PDF, with
@@ -69,5 +106,6 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 ## 1.0.0 — 2026-07-05
 
 Initial release — render and edit Markdown, JSON, YAML, TOML, XML, CSV/TSV,
-Mermaid, Graphviz, LaTeX, Typst, Jupyter, diff, logs, AsciiDoc and Org-mode
-natively, with a Quick Look extension and bring-your-own-key AI actions.
+Mermaid, Graphviz, LaTeX, Jupyter, diff, logs, AsciiDoc and Org-mode natively,
+with a Quick Look extension (Mac) and bring-your-own-key AI actions.
+Typst (`.typ`) files open as readable source; rendering them is not planned.

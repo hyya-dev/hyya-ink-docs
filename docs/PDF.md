@@ -15,12 +15,13 @@ Preview as your default.
 
 Viewing is **free forever**.
 
-## Fill in a form
+## Add text to a PDF
 
-Works on real form fields *and* on flat, scanned paperwork that has no form fields
-at all — the common case that trips up other tools.
+hYYa ink detects no form fields and never hunts for boxes — you place every piece of
+text yourself, at the exact spot you tap. That is what lets it work on flat, scanned
+paperwork with no form fields at all, the common case that trips up other tools.
 
-1. Tap **Fill Blanks** in the toolbar
+1. Tap **Add Text** in the toolbar
 2. Tap anywhere on the page where text should go
 3. Type — the text appears exactly where you tapped
 4. Drag to reposition, or re-edit any entry
@@ -127,7 +128,7 @@ Exporting to PDF is **free**.
 |---|:--:|:--:|
 | View PDFs | ✅ | ✅ |
 | Export / print any document to PDF | ✅ | ✅ |
-| Fill in forms and flat paperwork | | ✅ |
+| Add text to a PDF | | ✅ |
 | Sign by hand | | ✅ |
 | Mark up by hand *(Mac, iPhone & iPad)* | | ✅ |
 | AI actions | | ✅ |
