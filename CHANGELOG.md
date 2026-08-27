@@ -2,6 +2,54 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.3.2 — 2026-08-12
+
+**Four fixes, all of them about reading.**
+
+- Text in a PDF can be selected and copied again.
+- Values in a JSON, YAML or TOML file can be selected and copied.
+- `.yaml`, `.yml` and `.toml` files now open. They were greyed out before.
+- A selection made while reading no longer lingers when you switch to Add Text.
+
+Every tool still writes a NEW file. The document you opened is never modified.
+
+## 1.3.1 — 2026-08-09
+
+**The ten PDF tools reach iPhone and iPad, and three fixes land on the Mac.**
+
+- **iPhone and iPad** gain everything the Mac received in 1.3.0 below — Find in
+  document, Pages and contents, Make Searchable, Organise Pages, Protect, Compress,
+  Watermark, Compare, Mark Up Text, and opening password-protected PDFs.
+- **Print is back on PDFs.** It had been hidden whenever the open document was a PDF —
+  the one kind of file people print most — on both platforms.
+- Printing a PDF now includes what you added on screen: typed text, a signature, markup.
+- "Insert pages from another PDF…" in Organise Pages now opens a file chooser.
+
+> iPhone and iPad went straight from 1.2.5 to 1.3.1; there was no 1.3.0 on those
+> platforms.
+
+## 1.3.0 — 2026-08-06 · Mac only
+
+**Ten new PDF tools — including the one that changes what hYYa ink can read.**
+
+- **Make Searchable** — on-device text recognition turns a scanned page into a PDF you
+  can search and select. AI actions work on scans now too. Nothing is uploaded.
+- **Find in document** — every match highlighted, with a live count.
+- **Pages and contents** — page thumbnails and the document's own contents.
+- **Organise Pages** — reorder, rotate and remove pages.
+- **Protect** — set an open password, and allow or block printing and copying.
+- **Compress** — the exact before-and-after size, shown before you save.
+- **Watermark** — a live preview as you type.
+- **Compare** — see which pages differ between two versions.
+- **Mark Up Text** — highlight, underline or strike through what you select.
+- Password-protected PDFs now open properly.
+
+Every tool writes a NEW file. The PDF you opened is never modified.
+Find, Pages and contents, and opening protected PDFs are free; the rest are Pro.
+
+Also in this release: the 7-day trial is now something you **start yourself** rather
+than something that begins on first launch, and it runs once per Apple Account.
+
 ## 1.2.5 — 2026-08-02
 
 **Both platforms back in step.**

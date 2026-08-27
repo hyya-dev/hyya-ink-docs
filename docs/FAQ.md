@@ -19,9 +19,12 @@ direct `.dmg` download for Mac with its own license key; that was retired in Jul
 2026, so there is now a single app and a single purchase to keep track of.
 
 ### Is there a trial?
-Yes — a full-featured trial so you can try editing, signing and AI before deciding.
-When it ends the app keeps working as a free viewer; nothing is locked away or
-deleted.
+Yes — a **7-day** full-featured trial so you can try editing, signing and AI before
+deciding. You **start it yourself** from the Pro screen; it does not begin on its own,
+and its duration, what stops working at the end, and the one-time price are all shown
+before you start it. It is one trial per Apple Account, so it continues rather than
+restarts on your other devices, and reinstalling does not grant a fresh one. When it
+ends the app keeps working as a free viewer; nothing is locked away or deleted.
 
 ## Privacy & AI
 

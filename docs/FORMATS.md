@@ -100,18 +100,27 @@ logs.
 ## PDF
 
 ### PDF (`.pdf`)
-A first-class document, not an afterthought: view any PDF, **type into form
-fields**, **sign by hand** in black or blue ink, resize and rotate your signature,
-undo/redo, then export or print. Full walkthrough → **[PDF guide](PDF.md)**.
+A first-class document, not an afterthought: view any PDF, **add text anywhere** by
+clicking the exact spot and typing, **sign by hand** in black or blue ink, resize and
+rotate your signature, undo, mark up by hand, then export or print. Ten further PDF
+tools — Find in document, Pages and contents, Make Searchable, Organise Pages, Protect,
+Compress, Watermark, Compare and Mark Up Text — are covered in the
+**[PDF guide](PDF.md)**.
 
-Viewing and exporting PDFs is free; filling and signing require Pro.
+> hYYa ink detects **no form fields** and never hunts for boxes — you place every piece
+> of text yourself. That is what lets it work on flat, scanned paperwork.
+
+Viewing, exporting and printing PDFs are free, and so are Find in document, Pages and
+contents, and opening password-protected PDFs. Adding text, signing, marking up, saving
+a copy and the document tools require Pro.
 
 ---
 
 ## Quick Look
 
-Every format above also previews with the **space bar in Finder** via hYYa ink's
-Quick Look extension — no need to open the app.
+**On the Mac**, every format above also previews with the **space bar in Finder** via
+hYYa ink's Quick Look extension — no need to open the app. The Quick Look extension is
+macOS-only; there is no equivalent on iPhone or iPad.
 
 ## Don't see your format?
 
