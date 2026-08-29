@@ -155,6 +155,13 @@ Seven more tools, all Pro, all on Mac, iPhone and iPad. On iPhone they live in t
 | **Watermark** | Live preview as you set the wording and strength. |
 | **Compare** | See which pages differ between two versions of a document. |
 | **Mark Up Text** | Highlight, underline or strike through selected text. |
+| **Redact** | Remove selected text permanently. The page is rasterised so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only pages you redact are rasterised. |
+| **Cover and replace** | Swap selected text for new text. The original is removed by the same engine, so the saved file cannot display one value and extract another. |
+
+> **What Redact promises, precisely.** It removes the text you select, on the pages you
+> redact. It does **not** scrub document metadata, attachments or embedded files — it
+> sanitises a page, not a whole document. Cover and replace removes the original too, so
+> never think of it as hiding a value underneath a new one.
 
 > **Make Searchable is not AI.** It is Apple's on-device Vision text recognition. It
 > runs entirely on your device and sends nothing anywhere.

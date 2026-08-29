@@ -2,6 +2,31 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.3.3 — iPhone & iPad 2026-08-27 · Mac 2026-08-29
+
+**Two new PDF tools that remove text rather than hide it, and a clearer free trial.**
+
+- **Redact** — remove text from a PDF for good. Not a black bar drawn on top: the
+  affected page is rasterised, so the words leave the file and cannot be selected,
+  copied or searched afterwards. Only pages you redact are rasterised; the rest of the
+  document keeps its selectable text.
+- **Cover and replace** — swap a date or a figure for new text. The original is removed
+  too, rather than hiding underneath the replacement. It uses the same engine as Redact,
+  so a replaced document cannot display one value and extract another.
+- **Mac: make hYYa ink your default.** Settings now explains how to open your files in
+  ink from Finder. Instructions only — macOS does not permit an app to change that
+  binding itself, so there is no button that pretends to.
+- The free 7-day trial is now named on the control that opens the Pro screen. It used to
+  read only "Unlock Pro", so the trial was easy to miss; it now reads "Try free", and
+  becomes "Unlock Pro" only once a trial has been used.
+- If you have never started a trial, the app no longer tells you that one has ended.
+
+⚠️ **What Redact does and does not promise.** It removes the text you select on the pages
+you redact. It does **not** scrub document metadata, attachments or embedded files, so it
+sanitises a page — not a whole document.
+
+Every tool still writes a NEW file. The document you opened is never modified.
+
 ## 1.3.2 — 2026-08-12
 
 **Four fixes, all of them about reading.**

@@ -104,7 +104,7 @@ A first-class document, not an afterthought: view any PDF, **add text anywhere**
 clicking the exact spot and typing, **sign by hand** in black or blue ink, resize and
 rotate your signature, undo, mark up by hand, then export or print. Ten further PDF
 tools — Find in document, Pages and contents, Make Searchable, Organise Pages, Protect,
-Compress, Watermark, Compare and Mark Up Text — are covered in the
+Compress, Watermark, Compare, Mark Up Text, Redact and Cover and replace — are covered in the
 **[PDF guide](PDF.md)**.
 
 > hYYa ink detects **no form fields** and never hunts for boxes — you place every piece
