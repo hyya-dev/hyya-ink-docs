@@ -155,8 +155,14 @@ Seven more tools, all Pro, all on Mac, iPhone and iPad. On iPhone they live in t
 | **Watermark** | Live preview as you set the wording and strength. |
 | **Compare** | See which pages differ between two versions of a document. |
 | **Mark Up Text** | Highlight, underline or strike through selected text. |
-| **Redact** | Remove selected text permanently. The page is rasterised so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only pages you redact are rasterised. |
+| **Redact** | Remove selected text permanently. The page is rasterised so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only pages you redact are rasterised, and on-device text recognition runs over them afterwards so the text you kept stays searchable. |
 | **Cover and replace** | Swap selected text for new text. The original is removed by the same engine, so the saved file cannot display one value and extract another. |
+
+> **What happens to the rest of a redacted page.** That page becomes an image, so hYYa ink
+> immediately re-runs on-device text recognition over it — the text you kept stays
+> selectable and searchable. It is *recognised* text rather than the original, so on an
+> unusual font it can be imperfect. The redacted words cannot come back: the bars are
+> burned in **before** the page is photographed, so the recogniser never sees them.
 
 > **What Redact promises, precisely.** It removes the text you select, on the pages you
 > redact. It does **not** scrub document metadata, attachments or embedded files — it

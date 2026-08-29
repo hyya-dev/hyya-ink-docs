@@ -9,7 +9,9 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 - **Redact** — remove text from a PDF for good. Not a black bar drawn on top: the
   affected page is rasterised, so the words leave the file and cannot be selected,
   copied or searched afterwards. Only pages you redact are rasterised; the rest of the
-  document keeps its selectable text.
+  document keeps its selectable text. On-device recognition then runs over the redacted
+  page, so the text you kept stays searchable there too — the removed words cannot return,
+  because the bars go on before the page is photographed.
 - **Cover and replace** — swap a date or a figure for new text. The original is removed
   too, rather than hiding underneath the replacement. It uses the same engine as Redact,
   so a replaced document cannot display one value and extract another.
