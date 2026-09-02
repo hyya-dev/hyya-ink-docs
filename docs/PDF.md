@@ -143,7 +143,7 @@ are icon buttons; their names appear as tooltips rather than printed captions.
 
 ## Document tools
 
-Seven more tools, all Pro, all on Mac, iPhone and iPad. On iPhone they live in the
+The document tools — all Pro, all on Mac, iPhone and iPad. On iPhone they live in the
 **•••** Tools menu; on the Mac they are in the **•••** menu in the toolbar.
 
 | Tool | What it does |
