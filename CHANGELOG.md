@@ -2,6 +2,31 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.1 — in review (submitted 2026-09-02; dates added when each platform is live)
+
+**A small follow-up.**
+
+- **iPhone & iPad** — a live page count over every PDF, so you always know where you are; on
+  iPad the page browser opens as a panel beside the page (on iPhone it remains a sheet); small
+  fixes.
+- **Mac** — View ▸ Actual Size (100 %) and View ▸ Zoom to Fit (⌘9) are two commands, and the
+  zoom commands are greyed out on a window that is not a PDF; small fixes.
+
+## 1.4.0 — iPhone & iPad 2026-09-02 · Mac 2026-09-02
+
+**The PDF reader gets the ordinary things it was missing.**
+
+- **Print a PDF** — previously offered only for the text formats. Both platforms.
+- **Tables read row by row with VoiceOver**, each cell announcing its column. Both platforms.
+- **When a JSON, YAML or TOML file will not parse, the app says so** and shows the source
+  instead of showing nothing. Both platforms.
+- **AI actions that rewrite your document ask first, and can be undone.** Both platforms.
+- **Mac** — View ▸ Zoom In / Zoom Out on PDFs, with a live page readout in the toolbar; a
+  **Text size** preference in Settings that every screen honours; drag a file onto a window to
+  open it; Quick Look previews `.yaml` and `.toml`.
+- **iPhone & iPad** — Larger Text (Dynamic Type) is honoured on every screen; going back with
+  unsaved text, a signature or markup asks before discarding.
+
 ## 1.3.3 — iPhone & iPad 2026-08-27 · Mac 2026-08-29
 
 **Two new PDF tools that remove text rather than hide it, and a clearer free trial.**
