@@ -2,7 +2,7 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 1.4.1 — in review (submitted 2026-09-02; dates added when each platform is live)
+## 1.4.1 — iPhone & iPad 2026-09-03 · Mac 2026-09-02
 
 **A small follow-up.**
 
