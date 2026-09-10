@@ -123,7 +123,7 @@ a copy and the document tools require Pro.
 **On the Mac**, pressing the **space bar in Finder** shows these files without opening the
 app, via hYYa ink's Quick Look extension:
 
-- **As a table:** CSV, TSV
+- **As a table:** CSV
 - **Pretty-printed:** JSON
 - **As source:** Markdown, YAML, TOML, Mermaid, Graphviz (`.gv`), LaTeX, Jupyter, AsciiDoc,
   Org, diff / patch, log files, plain text and source code
