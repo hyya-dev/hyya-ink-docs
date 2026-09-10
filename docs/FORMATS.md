@@ -74,8 +74,10 @@ and stored outputs — without launching Jupyter.
 Flowcharts, sequence diagrams, Gantt charts, class and state diagrams rendered
 from text, offline. The rendering bundle ships inside the app — no CDN, no network.
 
-### Graphviz / DOT (`.dot`, `.gv`)
-Graph layouts rendered natively from DOT source.
+### Graphviz / DOT (`.gv`)
+Graph layouts rendered natively from DOT source. **Save Graphviz files as `.gv`.** On macOS the `.dot`
+extension belongs to Word templates, and hYYa ink deliberately does not claim it — doing
+so would mean claiming every Word template on the Mac.
 
 ### PlantUML (`.puml`, `.plantuml`, `.iuml`) — source only, rendering not planned
 Recognised as PlantUML and opened as readable, syntax-aware source. **Rendering
@@ -118,8 +120,17 @@ a copy and the document tools require Pro.
 
 ## Quick Look
 
-**On the Mac**, every format above also previews with the **space bar in Finder** via
-hYYa ink's Quick Look extension — no need to open the app. The Quick Look extension is
+**On the Mac**, pressing the **space bar in Finder** shows these files without opening the
+app, via hYYa ink's Quick Look extension:
+
+- **As a table:** CSV, TSV
+- **Pretty-printed:** JSON
+- **As source:** Markdown, YAML, TOML, Mermaid, Graphviz (`.gv`), LaTeX, Jupyter, AsciiDoc,
+  Org, diff / patch, log files, plain text and source code
+
+It is a quick look at the file, not the rendered document — Markdown, diagrams and maths
+render when you open the file in hYYa ink. **XML and PDF** use macOS's own preview, and
+Typst and PlantUML files are not previewed by hYYa ink. The Quick Look extension is
 macOS-only; there is no equivalent on iPhone or iPad.
 
 ## Don't see your format?

@@ -100,8 +100,12 @@ saves a configuration that doesn't work. The app will warn you if you try to lea
 with unsaved changes.
 
 ### Can it preview files from Finder?
-Yes — hYYa ink installs a **Quick Look extension**, so pressing the space bar on
-any supported file previews it rendered, without opening the app.
+Yes, on the Mac — hYYa ink installs a **Quick Look extension**, so pressing the space
+bar on a supported text file shows it without opening the app: CSV and TSV as a table,
+JSON pretty-printed, and other text formats as their source. It is a quick look at the
+file, not the rendered document — Markdown, diagrams and maths render when you open it
+in hYYa ink. XML and PDF use macOS's own preview. The full list is under
+[Quick Look](FORMATS.md#quick-look).
 
 ### Will it take over as my default PDF app?
 No. hYYa ink registers as an *alternate* handler, so it shows up under **Open
@@ -109,7 +113,7 @@ With** while Preview stays your default unless you change it yourself.
 
 ### Can I mark up a PDF by hand?
 Yes — on **Mac, iPhone and iPad**. Use Apple Pencil or your finger on iPhone and
-iPad, or your trackpad or mouse on the Mac, with pen, marker and highlighter across
+iPad, or your trackpad or mouse on the Mac, with pen, marker, pencil and eraser across
 as many pages as you like in one session.
 
 Your handwriting is written into the page itself rather than added as a separate

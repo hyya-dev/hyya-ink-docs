@@ -22,11 +22,11 @@ a paginated page — not raw syntax. Everything renders **locally and offline**.
 
 | | |
 |---|---|
-| 📄 **Read anything** | 18+ formats rendered natively — see [Supported formats](docs/FORMATS.md) |
+| 📄 **Read anything** | 16 formats rendered natively, PDF included — see [Supported formats](docs/FORMATS.md) |
 | ✍️ **Edit in place** | Markdown tools, JSON/YAML/TOML trees, CSV tables |
 | 🖊️ **PDF: add text, sign & mark up** | Add text anywhere by clicking the spot and typing, hand-sign in black or blue ink, annotate by hand on Mac, iPad and iPhone, find, OCR a scan, organise pages, redact text permanently, export or print — see [PDF guide](docs/PDF.md) |
 | 🤖 **AI, your own key** | Explain, summarize, reformat, fix, diagram — bring your own API key (OpenRouter, OpenAI, Groq, Together AI or a custom endpoint), or run a local model on your Mac via Ollama / LM Studio |
-| 👁️ **Quick Look** *(Mac only)* | Space-bar preview for every supported format, straight from Finder |
+| 👁️ **Quick Look** *(Mac only)* | Press Space in Finder to look at a text file without opening the app — CSV/TSV as a table, JSON pretty-printed, the rest as source. It shows the file, not the rendered document; see [Quick Look](docs/FORMATS.md#quick-look) |
 | 🔒 **Local-first** | No account, no server, no telemetry. Your documents never leave your device unless you run an AI action |
 
 ## Supported formats

@@ -2,6 +2,16 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.2 — iPhone & iPad 2026-09-09 · Mac 2026-09-11
+
+**A small update.**
+
+- **iPhone & iPad** — a **Text size** setting in Settings ▸ Appearance, with a Reset. It adds
+  to Larger Text (Dynamic Type) rather than replacing it, so a size you already chose for the
+  whole device still counts.
+- **Mac** — the help for making hYYa ink your default app now explains, in plain words, what
+  setting it does for your documents.
+
 ## 1.4.1 — iPhone & iPad 2026-09-03 · Mac 2026-09-02
 
 **A small follow-up.**
