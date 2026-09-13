@@ -101,7 +101,7 @@ with unsaved changes.
 
 ### Can it preview files from Finder?
 Yes, on the Mac — hYYa ink installs a **Quick Look extension**, so pressing the space
-bar on a supported text file shows it without opening the app: CSV as a table,
+bar on a supported text file shows it without opening the app: CSV and TSV as a table,
 JSON pretty-printed, and other text formats as their source. It is a quick look at the
 file, not the rendered document — Markdown, diagrams and maths render when you open it
 in hYYa ink. XML and PDF use macOS's own preview. The full list is under

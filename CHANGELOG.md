@@ -2,6 +2,14 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.3 — iPhone & iPad 2026-09-13 · Mac 2026-09-13
+
+**A small update.**
+
+- **Mac** — Quick Look now shows **TSV** files as a table, the same as CSV. Pressing the space
+  bar on a `.tsv` file in Finder used to fall back to plain text.
+- **iPhone & iPad** — no changes to the app itself in this version.
+
 ## 1.4.2 — iPhone & iPad 2026-09-09 · Mac 2026-09-11
 
 **A small update.**
