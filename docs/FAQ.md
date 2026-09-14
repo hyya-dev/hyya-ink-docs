@@ -99,6 +99,17 @@ are only stored once the connection test succeeds — this guarantees the app ne
 saves a configuration that doesn't work. The app will warn you if you try to leave
 with unsaved changes.
 
+### Can I copy the text out of a document?
+
+Yes, and all of it at once. Select any part of a document and copy it as usual, or use
+**Copy all text** to put the whole file on the clipboard in one action — Edit ▸ Copy All Text
+(⇧⌘C) on the Mac, beside Export and Print on iPad, and in the ••• menu on iPhone. It's free,
+like reading, exporting and printing.
+
+What you get is the file's own text, not a picture of how it looks: copy a Markdown document
+and `# Heading` and `**bold**` come with it, so it pastes into another editor unchanged. PDFs
+work the way they always have — select and copy, or Select All.
+
 ### Can it preview files from Finder?
 Yes, on the Mac — hYYa ink installs a **Quick Look extension**, so pressing the space
 bar on a supported text file shows it without opening the app: CSV and TSV as a table,

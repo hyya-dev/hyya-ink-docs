@@ -2,6 +2,20 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.4 — iPhone & iPad 2026-09-13 · Mac 2026-09-13
+
+**Getting the text out of a document.**
+
+- **Everywhere** — text that could not be selected now selects. Headings and table cells in
+  Markdown were skipped, so you could highlight a paragraph but not the title above it.
+- **Everywhere** — **Copy all text** takes a whole document in one action. A highlight can only
+  ever cover one block at a time, so taking the entire file was not just awkward, it was not
+  possible. It's free, like reading, exporting and printing. On the Mac it's Edit ▸ Copy All
+  Text (⇧⌘C); on iPad it sits beside Export and Print; on iPhone the three share the ••• menu.
+  What lands on the clipboard is the file itself — `# Heading` and `**bold**` survive, so what
+  you paste is what you opened.
+- PDFs are unchanged: they already answer Select All and Copy on their own.
+
 ## 1.4.3 — iPhone & iPad 2026-09-13 · Mac 2026-09-13
 
 **A small update.**
