@@ -2,6 +2,21 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.5 — iPhone & iPad 2026-09-14 · Mac 2026-09-14
+
+**Select All and Copy, the way every other document app does it.**
+
+- **Everywhere** — the page you read is now a real text view, so **Select All** and **Copy** are
+  the system's own commands: ⌘A then ⌘C on the Mac, long-press then Select All on iPhone and
+  iPad. Dragging across a document now works too, including across a heading, a quote and a
+  table in one sweep — before, a selection could not leave the block it started in.
+- **Everywhere** — the **Copy all text** command added in 1.4.4 has been removed. It was a
+  button standing in for a capability that should never have needed one, and the capability is
+  now there.
+- ⚠️ **What lands on the clipboard has changed.** You now copy what you see: a Markdown heading
+  arrives as "Lease summary", not "# Lease summary". If you want the raw file with its syntax,
+  copy from the **Source** pane. Plain text, code, diffs and logs are unchanged.
+
 ## 1.4.4 — iPhone & iPad 2026-09-13 · Mac 2026-09-13
 
 **Getting the text out of a document.**

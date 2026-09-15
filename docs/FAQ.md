@@ -101,14 +101,15 @@ with unsaved changes.
 
 ### Can I copy the text out of a document?
 
-Yes, and all of it at once. Select any part of a document and copy it as usual, or use
-**Copy all text** to put the whole file on the clipboard in one action — Edit ▸ Copy All Text
-(⇧⌘C) on the Mac, beside Export and Print on iPad, and in the ••• menu on iPhone. It's free,
-like reading, exporting and printing.
+Yes — any part of it, or all of it. Select with the mouse or your finger and copy as usual; to
+take the whole file, press Select All (⌘A on the Mac, or long-press then **Select All** on iPhone
+and iPad) and copy (⌘C). It behaves the way it does in any other document app, because the page
+you are reading is an ordinary text view. It's free, like reading, exporting and printing.
 
-What you get is the file's own text, not a picture of how it looks: copy a Markdown document
-and `# Heading` and `**bold**` come with it, so it pastes into another editor unchanged. PDFs
-work the way they always have — select and copy, or Select All.
+What you copy is what you see. In a rendered format like Markdown that means the finished text —
+copy a heading and you get "Lease summary", not "# Lease summary". The raw file, with its `#` and
+`**`, is what the **Source** pane shows, and that pane is part of Pro. Plain text, code, diffs and
+logs are the same either way, and PDFs work the way they always have.
 
 ### Can it preview files from Finder?
 Yes, on the Mac — hYYa ink installs a **Quick Look extension**, so pressing the space
