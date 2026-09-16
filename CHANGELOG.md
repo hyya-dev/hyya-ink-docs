@@ -2,6 +2,31 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.6 — iPhone & iPad 2026-09-16 · Mac in review
+
+**Two PDF tools that iOS 27 quietly stopped doing, working again — plus five things a
+ten-minute look at the app turned up.**
+
+- **iPhone & iPad** — **Make Searchable** puts text back into a scan. On iOS 27 it had been
+  handing back a file with no text in it at all: no error, no warning, nothing to search. ink
+  now reads each page itself and writes the text layer.
+- **iPhone & iPad** — **Compress** makes a scan smaller again. On iOS 27 it had been returning
+  a file very slightly *larger* than the one you gave it.
+- ⚠️ **Compress is narrower than it used to be, deliberately.** It re-encodes pages that are
+  only a picture — a scan or a photo. A page carrying its own text is passed through untouched,
+  because shrinking it would mean destroying text you can search and select. Two things follow,
+  and they are worth knowing rather than discovering: a mixed page of photographs *and* writing
+  no longer gets smaller, and a document you have already run through Make Searchable will not
+  compress at all, because every page now has text on it. **Compress first, then make it
+  searchable.** The sheet says which case you are in.
+- **iPhone & iPad** — the **Find** field in a PDF now looks like a field: its own background,
+  its own outline, and the theme's accent colour when you are typing in it. It used to be bare
+  text on the bar, and it was easy to miss in every theme.
+- **iPhone & iPad** — the same **Try free** button no longer appears twice, a few millimetres
+  apart, saying the same thing.
+- **iPhone & iPad** — the trial screen now says plainly that you are **not charged** when the
+  seven days end and that there is nothing to cancel. It always worked that way; it never said so.
+
 ## 1.4.5 — iPhone & iPad 2026-09-14 · Mac 2026-09-14
 
 **Select All and Copy, the way every other document app does it.**
