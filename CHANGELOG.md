@@ -2,6 +2,29 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.7 — iPhone & iPad 2026-09-20 · Mac 2026-09-20
+
+**Settings rewritten into five plain cards, an Auto theme that actually follows your device,
+and a first screen that is not covered by the Dynamic Island.**
+
+- **Everywhere** — **Settings is five cards**: Appearance, hYYa ink Pro, AI, Formats it opens,
+  and Help and more. The long explanatory paragraphs are gone; each card says what it is for
+  in a sentence you can act on.
+- **Everywhere** — **three appearance modes: Auto, Light Mode and Dark Mode.** Auto follows
+  whatever your device is set to and changes with it. ⚠️ **Classic Dark has been removed.**
+  If you were using it you are now on Dark Mode, which is the same dark theme; nobody's choice
+  was reset.
+- **Everywhere** — **Auto now works.** Choosing it used to leave the app in whichever theme it
+  was already showing, so it never picked up your device's setting at all. It reads the system
+  directly now, on both platforms, and follows it when you change it.
+- **iPhone & iPad** — the **first screen** has been rebuilt around the mascot: it is no longer
+  hidden behind the Dynamic Island, and the app's name is centred underneath it. On a light
+  device that name used to be black on a dark background — effectively invisible.
+- **Mac** — **clicking the Dock icon brings the app back.** If you closed the last window the
+  app stayed running with nothing on screen, and clicking its icon did nothing.
+- **Mac** — the **default-app card** is a title and four steps. The paragraph explaining what
+  macOS does and why has been deleted; it was an essay in the middle of a set of instructions.
+
 ## 1.4.6 — iPhone & iPad 2026-09-16 · Mac 2026-09-16
 
 **Three things the new OS quietly stopped doing, working again — plus five things a
