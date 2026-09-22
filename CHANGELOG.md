@@ -2,6 +2,19 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.8 — iPhone & iPad 2026-09-21 · Mac 2026-09-21
+
+**One change: the Settings panel now signs itself off.**
+
+- **Everywhere** — Settings ends with the ink mascot and the app's name beneath it, after
+  "Help and more". The mascot used to float between two cards with nothing attached to it, so
+  it read as a stray picture rather than as the app putting its name to its own panel. It is
+  drawn as the same rounded square, at the same corner ratio, as the lockup on the first
+  screen, so the two surfaces read as one app.
+
+That is the whole release. Everything else that happened between 1.4.7 and 1.4.8 was on
+Android, which is a separate app with its own version numbers and is not on the App Store.
+
 ## 1.4.7 — iPhone & iPad 2026-09-20 · Mac 2026-09-20
 
 **Settings rewritten into five plain cards, an Auto theme that actually follows your device,
