@@ -12,13 +12,13 @@ body:
     id: version
     attributes:
       label: hYYa ink version
-      description: Find it at the bottom of Settings (e.g. 1.1.1)
+      description: Shown on hYYa ink's page in the App Store or Google Play
     validations: { required: true }
   - type: dropdown
     id: platform
     attributes:
       label: Platform
-      options: [macOS (App Store), macOS (direct download), iPad, iPhone]
+      options: [macOS, iPad, iPhone, Android]
     validations: { required: true }
   - type: input
     id: format

@@ -1,7 +1,7 @@
 # Supported formats
 
 hYYa ink detects a file's format from its content type, extension and content
-signature — then renders it with a purpose-built native view. Every renderer runs
+signature — then renders it with a purpose-built view inside the app. Every renderer runs
 **locally and offline**; nothing is uploaded.
 
 Viewing and previewing every format is **free forever**. Editing requires the
@@ -13,22 +13,23 @@ one-time Pro unlock.
 
 ### Markdown (`.md`, `.markdown`, `.mdown`, `.mkd`)
 Rendered as a formatted document — headings, lists, tables, blockquotes, task
-lists, links and fenced code with syntax highlighting. Pro adds a **Markdown
+lists, links and fenced code blocks. Pro adds a **Markdown
 toolbar** for bold/italic/heading/link/list/code so you can format without
 memorizing syntax. Export the rendered result to a paginated PDF.
 
 ### AsciiDoc (`.adoc`, `.asciidoc`, `.asc`)
-Full AsciiDoc rendering — sections, admonitions, tables and source blocks.
+Rendered as a document — sections, admonitions, tables and source blocks.
 
 ### Org-mode (`.org`)
-Outline headings, TODO keywords, tables and source blocks rendered as a document.
+Outline headings, lists and source blocks rendered as a document.
 
 ### LaTeX (`.tex`, `.latex`, `.sty`)
-Math and formulas typeset via KaTeX so equations read as equations, not macros.
+Maths written between `$…$`, `$$…$$`, `\(…\)` or `\[…\]` is typeset via KaTeX, so
+equations read as equations, not macros. The rest of the file is shown as its LaTeX text.
 
-### Typst (`.typ`) — source only, rendering not planned
-Recognised as Typst and opened as readable, syntax-aware source. **Rendering Typst
-documents is not planned.** This is not a licensing question — Typst is Apache-2.0 and
+### Typst (`.typ`) — rendering not planned
+On Android, Typst files open as readable source. **Rendering Typst documents is not
+planned.** This is not a licensing question — Typst is Apache-2.0 and
 embeddable in commercial software, and its fonts are SIL OFL, GUST-LPPL and Bitstream
 Vera, so the licence cost is nothing. It is a size question: the WASM compiler alone is
 27 MB, and 5–7 MB of fonts have to be bundled with it, because `typst.ts` fetches fonts
@@ -37,7 +38,7 @@ roughly 6× the entire current offline renderer payload, which covers four forma
 5.8 MB.
 
 ### Plain text & source code
-Syntax-aware display for source files, with the same export and preview pipeline.
+Shown as clean monospaced text, with the same free export and print as every other format.
 
 ---
 
@@ -45,26 +46,30 @@ Syntax-aware display for source files, with the same export and preview pipeline
 
 ### JSON (`.json`)
 An **interactive, collapsible tree** — expand and collapse objects and arrays,
-scan large payloads without counting brackets. Pro allows editing values in place
-and writes valid JSON back.
+scan large payloads without counting brackets. On Mac, iPad and iPhone, Pro lets you
+edit values right in the tree; on every platform, Pro edits the file itself in the
+**Edit** view.
 
 ### YAML (`.yaml`, `.yml`)
-The same interactive tree treatment, so nesting is visible instead of inferred
-from indentation.
+The same interactive tree, so nesting is visible instead of inferred from
+indentation. The tree is for reading; with Pro, edit the YAML itself in the **Edit**
+view.
 
 ### TOML (`.toml`)
-Tables and nested keys rendered as a navigable tree.
+Tables and nested keys rendered as a navigable tree, for reading; with Pro, edit the
+TOML itself in the **Edit** view.
 
 ### XML (`.xml`)
 Element tree with attributes, collapsible by node.
 
 ### CSV & TSV (`.csv`, `.tsv`)
 A real **spreadsheet-style grid** with aligned columns and headers — not comma
-soup. Pro allows cell editing, and writes correctly-escaped CSV back out.
+soup. On Mac, iPad and iPhone, Pro lets you edit cells right in the grid; on Android,
+Pro edits the file itself in the **Edit** view.
 
 ### Jupyter notebooks (`.ipynb`)
-Cells rendered in order — Markdown cells as prose, code cells with highlighting,
-and stored outputs — without launching Jupyter.
+Cells rendered in order — Markdown cells as prose, code cells in monospace, and
+their text output — without launching Jupyter.
 
 ---
 
@@ -75,13 +80,13 @@ Flowcharts, sequence diagrams, Gantt charts, class and state diagrams rendered
 from text, offline. The rendering bundle ships inside the app — no CDN, no network.
 
 ### Graphviz / DOT (`.gv`)
-Graph layouts rendered natively from DOT source. **Save Graphviz files as `.gv`.** On macOS the `.dot`
+Graph layouts rendered from DOT source, inside the app and offline. **Save Graphviz files as `.gv`.** On macOS the `.dot`
 extension belongs to Word templates, and hYYa ink deliberately does not claim it — doing
 so would mean claiming every Word template on the Mac.
 
-### PlantUML (`.puml`, `.plantuml`, `.iuml`) — source only, rendering not planned
-Recognised as PlantUML and opened as readable, syntax-aware source. **Rendering
-PlantUML diagrams is not planned.** PlantUML's engine is Java, and the browser builds
+### PlantUML (`.puml`, `.plantuml`, `.iuml`) — rendering not planned
+On Android, PlantUML files open as readable source. **Rendering PlantUML diagrams is
+not planned.** PlantUML's engine is Java, and the browser builds
 that would let it run offline are not licensable for a commercial app — the CheerpJ
 build is explicitly non-commercial, and a server-side renderer would mean sending your
 diagram source off your device, which hYYa ink will not do.
@@ -104,15 +109,15 @@ logs.
 ### PDF (`.pdf`)
 A first-class document, not an afterthought: view any PDF, **add text anywhere** by
 clicking the exact spot and typing, **sign by hand** in black or blue ink, resize and
-rotate your signature, undo, mark up by hand, then export or print. Further PDF
+rotate your signature, undo, mark up by hand, then save a copy or print. Further PDF
 tools — Find in document, Pages and contents, Make Searchable, Organise Pages, Protect,
-Compress, Watermark, Compare, Mark Up Text, Redact and Cover and replace — are covered in the
+Compress, Watermark, Compare, Mark Up Text and Redact & Replace — are covered in the
 **[PDF guide](PDF.md)**.
 
 > hYYa ink detects **no form fields** and never hunts for boxes — you place every piece
 > of text yourself. That is what lets it work on flat, scanned paperwork.
 
-Viewing, exporting and printing PDFs are free, and so are Find in document, Pages and
+Viewing and printing PDFs are free, and so are Find in document, Pages and
 contents, and opening password-protected PDFs. Adding text, signing, marking up, saving
 a copy and the document tools require Pro.
 

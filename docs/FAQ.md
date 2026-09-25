@@ -6,8 +6,8 @@
 
 ### Is hYYa ink a subscription?
 No. Reading and previewing every format — including exporting to PDF — is **free
-forever**. Editing, PDF filling/signing and AI actions are unlocked with a **single
-one-time purchase**.
+forever**. Editing (including adding text to a PDF and signing it) and AI actions are unlocked
+with a **single one-time purchase**.
 
 ### Do I have to buy it twice for Mac and iPhone?
 No. The Mac App Store and iOS apps are a **Universal Purchase** — buy once with
@@ -93,11 +93,12 @@ make, by design.
 ### Where is my API key stored?
 On your device: in the system keychain on Mac, iPhone and iPad, and on Android encrypted
 with a key held in the Android Keystore and left out of backups. It is never sent to
-hYYa — only to the AI service you chose, when you run an AI action.
+hYYa — only to the AI service you chose, when you turn AI on, load its models, or run an
+AI action.
 
 ### Which AI providers work?
-Any OpenAI-compatible endpoint — OpenRouter, OpenAI, Groq, Together AI, or a custom
-endpoint. On macOS you can also point it at a local server such as Ollama or LM
+Any OpenAI-compatible endpoint over HTTPS — OpenRouter, OpenAI, Groq, Together AI, or a
+custom endpoint. On macOS you can also point it at a local server such as Ollama or LM
 Studio, which keeps everything on your machine.
 
 ## Using the app
@@ -109,14 +110,16 @@ succeeds — so a setup that doesn't work is never left switched on.
 
 ### Can I copy the text out of a document?
 
-Yes — any part of it, or all of it. Select with the mouse or your finger and copy as usual; to
-take the whole file, press Select All (⌘A on the Mac, or long-press then **Select All** on iPhone
-and iPad) and copy (⌘C). It behaves the way it does in any other document app, because the page
-you are reading is an ordinary text view. It's free, like reading, exporting and printing.
+Yes. In Markdown, plain text, code, diffs, logs and Org files you can copy any part of it, or all
+of it: select with the mouse or your finger and copy as usual, or press Select All (⌘A on the Mac,
+or long-press then **Select All** on iPhone and iPad) and copy (⌘C). On Mac, iPad and iPhone those
+formats behave the way they do in any other document app, because the page you are reading is an
+ordinary text view; in data trees, tables and notebooks you select a row or cell at a time. On
+Android, long-press to select, then copy. It's free, like reading, exporting and printing.
 
 What you copy is what you see. In a rendered format like Markdown that means the finished text —
 copy a heading and you get "Lease summary", not "# Lease summary". The raw file, with its `#` and
-`**`, is what the **Source** pane shows, and that pane is part of Pro. Plain text, code, diffs and
+`**`, is what the **Edit** view shows, and that view is part of Pro. Plain text, code, diffs and
 logs are the same either way, and PDFs work the way they always have.
 
 ### Can it preview files from Finder?
@@ -128,23 +131,23 @@ in hYYa ink. XML and PDF use macOS's own preview. The full list is under
 [Quick Look](FORMATS.md#quick-look).
 
 ### Will it take over as my default PDF app?
-No. hYYa ink registers as an *alternate* handler, so it shows up under **Open
-With** while Preview stays your default unless you change it yourself.
+No. On the Mac, hYYa ink registers as an *alternate* handler, so it shows up under
+**Open With** while Preview stays your default unless you change it yourself.
 
 ### Can I mark up a PDF by hand?
-Yes — on **Mac, iPhone and iPad**. Use Apple Pencil or your finger on iPhone and
-iPad, or your trackpad or mouse on the Mac, with pen, marker, pencil and eraser across
-as many pages as you like in one session.
+Yes — on **Mac, iPhone and iPad**, and on Android (below). Use your finger on iPhone,
+Apple Pencil or your finger on iPad, or your trackpad or mouse on the Mac, with pen,
+marker, pencil and eraser across as many pages as you like in one session.
 
-Your handwriting is written into the page itself rather than added as a separate
-annotation layer. That means nobody on the receiving end can select your notes and
+In the copy you save, your handwriting is written into the page itself rather than added
+as a separate annotation layer. That means nobody on the receiving end can select your notes and
 delete them — which is easy to do in most PDF apps — and no author name or comment
 metadata travels inside the file. It also renders identically anywhere the PDF is
 opened, and it's all done on your device with nothing uploaded.
 
-The flip side is that the marks are permanent once committed: you can undo while
-marking up, or undo the whole session right after tapping Done, but you can't
-reposition a stroke later. It behaves like a real pen. Note this is a visual mark,
+The flip side is that the marks are permanent in the saved copy: you can undo strokes
+while marking up, and after tapping Done the undo button takes a page's markup off in one
+step, but you can't reposition a stroke later. It behaves like a real pen. Note this is a visual mark,
 not encryption or a cryptographic signature.
 
 Markup came to the Mac in **1.2.1** — update if you're on an earlier Mac version.
