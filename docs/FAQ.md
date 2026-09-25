@@ -13,24 +13,31 @@ one-time purchase**.
 No. The Mac App Store and iOS apps are a **Universal Purchase** — buy once with
 your Apple Account and Pro unlocks on your Mac, iPad and iPhone.
 
+On **Android**, Pro is a separate one-time purchase through Google Play, tied to your
+Google account. An App Store purchase does not unlock Android, and a Google Play purchase
+does not unlock the Apple apps.
+
 ### Where do I get hYYa ink?
-From the **App Store only** — one listing covers Mac, iPad and iPhone. There was a
-direct `.dmg` download for Mac with its own license key; that was retired in July
-2026, so there is now a single app and a single purchase to keep track of.
+For Mac, iPad and iPhone, from the **App Store** — one listing covers all three. For
+Android, from **[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink)**
+(Android 9 or later). There was a direct `.dmg` download for Mac with its own license
+key; that was retired in July 2026.
 
 ### Is there a trial?
 Yes — a **7-day** full-featured trial so you can try editing, signing and AI before
 deciding. You **start it yourself** from the Pro screen; it does not begin on its own,
 and its duration, what stops working at the end, and the one-time price are all shown
-before you start it. It is one trial per Apple Account, so it continues rather than
-restarts on your other devices, and reinstalling does not grant a fresh one. When it
+before you start it. On Apple devices it is one trial per Apple Account, so it continues
+rather than restarts on your other devices, and reinstalling does not grant a fresh one. When it
 ends the app keeps working as a free viewer; nothing is locked away or deleted.
 
 ## Privacy & AI
 
 ### Does hYYa ink send my documents anywhere?
-No. All parsing, rendering, PDF handling and signing happen **on your device**.
-There is no account, no server and no telemetry.
+No. All parsing, rendering, PDF handling and signing happen **on your device**, and
+there is no account and no server. The Apple apps send no telemetry at all. On Android,
+Google's built-in text-recognition library sends Google its own diagnostics (for example
+the device model and performance figures) — never your documents.
 
 ### What about the AI features?
 AI is strictly **opt-in and bring-your-own-key (BYOK)**. Nothing is sent anywhere
@@ -40,8 +47,8 @@ its own and never proxies your content.
 
 Want no network at all? On **macOS** you can point hYYa ink at a local model server
 (Ollama or LM Studio) running on your own Mac — then nothing leaves the machine. Local
-servers aren't reachable on iPhone or iPad, so every provider choice there is a cloud
-one. hYYa ink has **no on-device AI model of its own** on any platform.
+servers aren't offered on iPhone, iPad or Android, so every provider choice there is a
+cloud one. hYYa ink has **no on-device AI language model** on any platform.
 
 ### macOS says "Apple could not verify … is free of malware" when I open a file with hYYa ink
 
@@ -84,7 +91,9 @@ it), and the block happens before the app is handed the file. That choice is you
 make, by design.
 
 ### Where is my API key stored?
-In the system keychain on your device. It is never transmitted to hYYa.
+On your device: in the system keychain on Mac, iPhone and iPad, and on Android encrypted
+with a key held in the Android Keystore and left out of backups. It is never sent to
+hYYa — only to the AI service you chose, when you run an AI action.
 
 ### Which AI providers work?
 Any OpenAI-compatible endpoint — OpenRouter, OpenAI, Groq, Together AI, or a custom
@@ -94,10 +103,9 @@ Studio, which keeps everything on your machine.
 ## Using the app
 
 ### Why doesn't my AI key seem to work?
-After entering your provider, key and model you must tap **Test & save**. Settings
-are only stored once the connection test succeeds — this guarantees the app never
-saves a configuration that doesn't work. The app will warn you if you try to leave
-with unsaved changes.
+After choosing your service and entering your key and model, tap **Turn on AI**.
+hYYa ink checks the connection first, and the AI actions switch on only when that check
+succeeds — so a setup that doesn't work is never left switched on.
 
 ### Can I copy the text out of a document?
 
@@ -141,6 +149,9 @@ not encryption or a cryptographic signature.
 
 Markup came to the Mac in **1.2.1** — update if you're on an earlier Mac version.
 
+On **Android** it works differently: you draw on a pad and place the drawing on the
+page; with a stylus, pressure sets each stroke's weight.
+
 ### Is the signature legally binding?
 It's a **visual** signature — equivalent to signing a printed page by hand, and it
 is flattened permanently into the document. It is not a cryptographic/PAdES digital
@@ -149,10 +160,13 @@ signature backed by a certificate authority.
 ## Platforms
 
 ### What are the system requirements?
-macOS 14 or later; iPadOS/iOS 17 or later.
+macOS 14 or later; iPadOS/iOS 17 or later; Android 9 or later.
 
 ### Is there an Android or Windows version?
-Not today. hYYa ink is a native Apple-platform app.
+**Android: yes** — hYYa ink is on
+[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink) for Android 9
+or later. It is a separate app with its own version numbers, and its Pro is a Google Play
+purchase. Windows: not today.
 
 ---
 

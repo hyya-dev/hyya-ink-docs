@@ -2,6 +2,26 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android — on Google Play 2026-09-25
+
+**hYYa ink is now on Android**, from
+[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink), for Android 9 or
+later. It is a separate app with its own version numbers, and its Pro is a separate one-time
+purchase through Google Play, tied to your Google account.
+
+- **Formats** — rendered on your device: Markdown, JSON, YAML, TOML, XML, CSV and TSV,
+  Mermaid, Graphviz, LaTeX, Jupyter, AsciiDoc, Org-mode, diff, logs and PDF.
+- **PDF** — read, search and copy the text; tap the page and type; sign by hand; draw on a pad
+  and place the drawing; highlight, underline or strike through a line of text; and open
+  password-protected files. Organise pages, protect, compress, watermark, make a scan searchable
+  (Latin script and Arabic) and redact — each writes a new file and leaves the PDF you opened
+  unchanged — and compare two PDFs to see which pages differ.
+- **AI, with your own key** — OpenRouter, OpenAI, Groq, Together AI or another service that
+  works the same way, on every format except PDF. Only the open document's text is sent, and
+  only when you run an action.
+- **Free to read** — every format, Export to PDF and Print. A 7-day trial you start yourself;
+  after that, one purchase unlocks editing, the PDF tools and AI.
+
 ## 1.4.8 — iPhone & iPad 2026-09-21 · Mac 2026-09-21
 
 **One change: the Settings panel now signs itself off.**
