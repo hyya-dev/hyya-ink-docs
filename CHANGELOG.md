@@ -2,6 +2,18 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.9 — iPhone & iPad 2026-09-25 · Mac: in Apple's review
+
+**Two changes, the same on iPhone, iPad and Mac.**
+
+- **Markdown task lists show done and not done** — `- [x] Signed` reads ☑ and
+  `- [ ] Pending` reads ☐ in the document you are reading. They had shown as plain bullets on
+  screen while an exported PDF already drew the boxes.
+- **Reading a document never reaches the internet** — the four built-in renderers (Mermaid,
+  Graphviz, LaTeX and AsciiDoc) now load only what ships inside the app. Until 1.4.9 an AsciiDoc
+  `image::https://…[]` line was fetched from the web the moment you opened the document, which
+  told that server when the file was read.
+
 ## Android — on Google Play 2026-09-25
 
 **hYYa ink is now on Android**, from
