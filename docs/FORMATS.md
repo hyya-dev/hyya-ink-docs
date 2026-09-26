@@ -46,9 +46,8 @@ Shown as clean monospaced text, with the same free export and print as every oth
 
 ### JSON (`.json`)
 An **interactive, collapsible tree** — expand and collapse objects and arrays,
-scan large payloads without counting brackets. On Mac, iPad and iPhone, Pro lets you
-edit values right in the tree; on every platform, Pro edits the file itself in the
-**Edit** view.
+scan large payloads without counting brackets. Pro lets you edit values
+right in the tree, or the file itself in the **Edit** view.
 
 ### YAML (`.yaml`, `.yml`)
 The same interactive tree, so nesting is visible instead of inferred from
@@ -64,8 +63,7 @@ Element tree with attributes, collapsible by node.
 
 ### CSV & TSV (`.csv`, `.tsv`)
 A real **spreadsheet-style grid** with aligned columns and headers — not comma
-soup. On Mac, iPad and iPhone, Pro lets you edit cells right in the grid; on Android,
-Pro edits the file itself in the **Edit** view.
+soup. Pro lets you edit cells right in the grid.
 
 ### Jupyter notebooks (`.ipynb`)
 Cells rendered in order — Markdown cells as prose, code cells in monospace, and

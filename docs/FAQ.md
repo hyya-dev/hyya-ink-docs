@@ -132,7 +132,8 @@ in hYYa ink. XML and PDF use macOS's own preview. The full list is under
 
 ### Will it take over as my default PDF app?
 No. On the Mac, hYYa ink registers as an *alternate* handler, so it shows up under
-**Open With** while Preview stays your default unless you change it yourself.
+**Open With** while Preview stays your default unless you change it yourself. On Android, hYYa
+ink appears in the list of apps that can open a PDF, without becoming your default.
 
 ### Can I mark up a PDF by hand?
 Yes — on **Mac, iPhone and iPad**, and on Android (below). Use your finger on iPhone,

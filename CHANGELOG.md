@@ -2,6 +2,25 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android — update on Google Play 2026-09-26
+
+- **Edit right where you read** (Pro) — change a JSON value in the tree, or a CSV or TSV cell in
+  the table, and only that value's text changes in the file: keys keep their order, numbers keep
+  their digits and line endings stay as they were. Tables also gain Add row and Add column.
+- **Contents** — the page browser lists the PDF's own table of contents when it has one; tap a
+  heading to go to its page.
+- **Organise Pages adds another PDF** — insert the pages of a second PDF, then reorder them.
+- **Open with hYYa ink** — open a document straight from another app. If that app lets hYYa ink
+  read but not write the file, saving offers a copy instead.
+- **Add Text, Sign and Markup open on the page you are reading** — they used to open on page 1.
+- **Typing stays readable** — while you type in Add Text, the page keeps its full size and scrolls
+  to your text, instead of shrinking into the space above the keyboard.
+- **Redaction keeps the rest searchable** — the words you keep on a redacted page are read again,
+  so they can still be searched and selected.
+- **Smaller fixes** — LaTeX `equation` and `align` blocks show as maths; numbered lists keep their
+  first number; AsciiDoc code blocks are readable in Light Mode; buttons and controls use the ink
+  colour throughout.
+
 ## 1.4.9 — iPhone & iPad 2026-09-25 · Mac 2026-09-25
 
 **Two changes, the same on iPhone, iPad and Mac.**

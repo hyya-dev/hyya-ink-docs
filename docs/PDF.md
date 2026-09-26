@@ -11,7 +11,8 @@ happens **on your device** — no upload, no cloud conversion service, no accoun
 
 Open any `.pdf` and it renders in a clean, paginated viewer. On the Mac, hYYa ink
 registers as an *alternate* PDF handler, so it appears under **Open With** without
-taking over Preview as your default.
+taking over Preview as your default. On Android, hYYa ink appears in the list of apps that can open a PDF, without
+becoming your default.
 
 Viewing is **free forever**.
 
@@ -143,8 +144,8 @@ Saving a copy requires Pro.
 
 - **Find in document** — every match highlighted at once, with a live count and
   next/previous. ⌘F on the Mac.
-- **Pages and contents** — page thumbnails on every platform; on Mac, iPad and iPhone,
-  also the PDF's own table of contents when it has one. Beside the page on the Mac and
+- **Pages and contents** — page thumbnails, plus the PDF's own table of contents when
+  it has one. Beside the page on the Mac and
   iPad; a sheet on iPhone.
 - **Password-protected PDFs** open normally — hYYa ink asks for the password.
 
@@ -161,16 +162,16 @@ in the **⋮** Tools menu.
 | Tool | What it does |
 |---|---|
 | **Make Searchable** | On-device text recognition adds a searchable, selectable text layer to a scanned page — so a photographed document can be searched, and its text selected and copied. On Mac, iPad and iPhone it reads many languages and picks the language itself (how many depends on your system version); on Android you choose Latin-alphabet languages or Arabic. Your pages are never uploaded. |
-| **Organise Pages** | Reorder, rotate and remove pages. On Mac, iPad and iPhone you can also add the pages of another PDF. |
+| **Organise Pages** | Reorder, rotate and remove pages, and add the pages of another PDF. |
 | **Protect** | Set a password to open the file, and ask PDF apps not to allow printing or copying. |
 | **Compress** | The exact before-and-after size is shown before you save. |
 | **Watermark** | Live preview as you set the wording and strength. |
 | **Compare** | See which pages differ from another PDF. On Mac, iPad and iPhone it compares the words on each page; on Android it compares how each page looks. |
 | **Mark Up Text** | Highlight, underline or strike through selected text (on Android, drag across the words). |
-| **Redact & Replace** | **Redact** removes selected text permanently (on Android, drag across the words): the page is saved as a picture, so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only the pages you redact become pictures; the other pages keep their text. On Mac, iPad and iPhone, text recognition then runs over those pages so the text you kept stays searchable. **Replace** swaps selected text for new text; the original is removed the same way, so the saved file cannot display one value and extract another. |
+| **Redact & Replace** | **Redact** removes selected text permanently (on Android, drag across the words): the page is saved as a picture, so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only the pages you redact become pictures; the other pages keep their text. Text recognition then runs over those pages so the text you kept stays searchable. **Replace** swaps selected text for new text; the original is removed the same way, so the saved file cannot display one value and extract another. |
 
-> **What happens to the rest of a redacted page.** On Mac, iPad and iPhone, that page
-> becomes an image, so hYYa ink immediately re-runs on-device text recognition over it —
+> **What happens to the rest of a redacted page.** That page becomes an image,
+> so hYYa ink immediately re-runs on-device text recognition over it —
 > the text you kept stays selectable and searchable. It is *recognised* text rather than
 > the original, so on an unusual font it can be imperfect. The redacted words cannot come
 > back: the bars are burned in **before** the page is photographed, so the recogniser

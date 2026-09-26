@@ -24,7 +24,7 @@ a paginated page — not raw syntax. Everything renders **locally and offline**.
 | | |
 |---|---|
 | 📄 **Read anything** | 16 formats rendered inside the app, PDF included — see [Supported formats](docs/FORMATS.md) |
-| ✍️ **Edit in place** | Markdown tools; JSON values in the tree and CSV/TSV cells in the table on Mac, iPad and iPhone; any text format, YAML and TOML included, in the **Edit** view |
+| ✍️ **Edit in place** | Markdown tools; JSON values in the tree and CSV/TSV cells in the table; any text format, YAML and TOML included, in the **Edit** view |
 | 🖊️ **PDF: add text, sign & mark up** | Add text anywhere by clicking the spot and typing, hand-sign in black or blue ink, mark up by hand, find, OCR a scan, organise pages, redact text permanently, save a copy or print — see [PDF guide](docs/PDF.md) |
 | 🤖 **AI, your own key** | Explain, summarize, reformat, fix errors, or write Mermaid code for a diagram — bring your own API key (OpenRouter, OpenAI, Groq, Together AI or a custom endpoint), or run a local model on your Mac via Ollama / LM Studio |
 | 👁️ **Quick Look** *(Mac only)* | Press Space in Finder to look at a text file without opening the app — CSV and TSV as a table, JSON pretty-printed, the rest as source. It shows the file, not the rendered document; see [Quick Look](docs/FORMATS.md#quick-look) |
