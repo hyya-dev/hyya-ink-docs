@@ -2,6 +2,11 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android — a second update on Google Play 2026-09-26
+
+- **Selection handles in the app's colours** — when you select text in a PDF, the two handles
+  now use the app's blue instead of purple.
+
 ## Android — update on Google Play 2026-09-26
 
 - **Edit right where you read** (Pro) — change a JSON value in the tree, or a CSV or TSV cell in
