@@ -168,10 +168,10 @@ in the **⋮** Tools menu.
 | **Watermark** | Live preview as you set the wording and strength. |
 | **Compare** | See which pages differ from another PDF. On Mac, iPad and iPhone it compares the words on each page; on Android it compares how each page looks. |
 | **Mark Up Text** | Highlight, underline or strike through selected text (on Android, drag across the words). |
-| **Redact & Replace** | **Redact** removes selected text permanently (on Android, drag across the words): the page is saved as a picture, so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only the pages you redact become pictures; the other pages keep their text. Text recognition then runs over those pages so the text you kept stays searchable. **Replace** swaps selected text for new text; the original is removed the same way, so the saved file cannot display one value and extract another. |
+| **Redact & Replace** | **Redact** removes selected text permanently (on Android, drag across the words): the page is saved as a picture, so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only the pages you redact become pictures; the other pages keep their text. Text recognition then re-reads the ones that had text, so the text you kept stays searchable. **Replace** swaps selected text for new text; the original is removed the same way, so the saved file cannot display one value and extract another. |
 
-> **What happens to the rest of a redacted page.** That page becomes an image,
-> so hYYa ink immediately re-runs on-device text recognition over it —
+> **What happens to the rest of a redacted page.** That page becomes an image; if it
+> had text, hYYa ink immediately re-reads it with on-device text recognition —
 > the text you kept stays selectable and searchable. It is *recognised* text rather than
 > the original, so on an unusual font it can be imperfect. The redacted words cannot come
 > back: the bars are burned in **before** the page is photographed, so the recogniser

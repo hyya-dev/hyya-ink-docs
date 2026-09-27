@@ -40,11 +40,11 @@ Rendering Typst (`.typ`) documents is **not planned** — not a licensing questi
 (Typst is Apache-2.0 and its fonts are freely embeddable) but a size one: the WASM
 compiler alone is 27 MB, plus 5–7 MB of fonts that must ship inside the app because
 every hYYa ink renderer works offline. That is roughly 6× the entire current renderer
-payload. On Android, `.typ` files open as readable source.
+payload. `.typ` files open as readable source.
 
 Rendering PlantUML (`.puml`) diagrams is **not planned** — the engine is Java, and the
 builds that could run it offline inside the app can't be licensed for a commercial app.
-On Android, `.puml` files open as readable source. For diagrams that render today, use
+`.puml` files open as readable source. For diagrams that render today, use
 **Mermaid** or **Graphviz**.
 
 Full breakdown of what each format renders → **[docs/FORMATS.md](docs/FORMATS.md)**

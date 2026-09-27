@@ -24,11 +24,12 @@ Rendered as a document — sections, admonitions, tables and source blocks.
 Outline headings, lists and source blocks rendered as a document.
 
 ### LaTeX (`.tex`, `.latex`, `.sty`)
-Maths written between `$…$`, `$$…$$`, `\(…\)` or `\[…\]` is typeset via KaTeX, so
-equations read as equations, not macros. The rest of the file is shown as its LaTeX text.
+Maths written between `$…$`, `$$…$$`, `\(…\)` or `\[…\]`, and in `equation`, `align`,
+`alignat` and `gather` blocks, is typeset via KaTeX, so equations read as equations,
+not macros. The rest of the file is shown as its LaTeX text.
 
 ### Typst (`.typ`) — rendering not planned
-On Android, Typst files open as readable source. **Rendering Typst documents is not
+Typst files open as readable source. **Rendering Typst documents is not
 planned.** This is not a licensing question — Typst is Apache-2.0 and
 embeddable in commercial software, and its fonts are SIL OFL, GUST-LPPL and Bitstream
 Vera, so the licence cost is nothing. It is a size question: the WASM compiler alone is
@@ -47,7 +48,8 @@ Shown as clean monospaced text, with the same free export and print as every oth
 ### JSON (`.json`)
 An **interactive, collapsible tree** — expand and collapse objects and arrays,
 scan large payloads without counting brackets. Pro lets you edit values
-right in the tree, or the file itself in the **Edit** view.
+right in the tree, or the file itself in the **Edit** view. Only the value you change is
+written; the rest of the file stays exactly as it was.
 
 ### YAML (`.yaml`, `.yml`)
 The same interactive tree, so nesting is visible instead of inferred from
@@ -63,7 +65,8 @@ Element tree with attributes, collapsible by node.
 
 ### CSV & TSV (`.csv`, `.tsv`)
 A real **spreadsheet-style grid** with aligned columns and headers — not comma
-soup. Pro lets you edit cells right in the grid.
+soup. Pro lets you edit cells right in the grid. Only the cell you change is written; the rest
+of the file stays exactly as it was.
 
 ### Jupyter notebooks (`.ipynb`)
 Cells rendered in order — Markdown cells as prose, code cells in monospace, and
@@ -83,7 +86,7 @@ extension belongs to Word templates, and hYYa ink deliberately does not claim it
 so would mean claiming every Word template on the Mac.
 
 ### PlantUML (`.puml`, `.plantuml`, `.iuml`) — rendering not planned
-On Android, PlantUML files open as readable source. **Rendering PlantUML diagrams is
+PlantUML files open as readable source. **Rendering PlantUML diagrams is
 not planned.** PlantUML's engine is Java, and the browser builds
 that would let it run offline are not licensable for a commercial app — the CheerpJ
 build is explicitly non-commercial, and a server-side renderer would mean sending your

@@ -2,6 +2,30 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.10 — iPhone & iPad 2026-09-26 · Mac 2026-09-26
+
+**The same changes on iPhone, iPad and Mac.**
+
+- **Turned and cropped PDF pages** — on a page stored turned or cropped, Redact now removes the
+  words you select, and Add Text, signatures, handwriting, watermarks and Mark Up Text land exactly
+  where you put them. On such pages they used to land somewhere else.
+- **Saved copies keep what the file carried** — bookmarks, links, other apps' annotations, form
+  values and the title and author survive saving. Saving used to rebuild the file without them.
+- **Edit only what you change** (Pro) — editing a JSON value in the tree or a CSV or TSV cell in
+  the grid writes only that value: keys keep their order, numbers keep their digits and line
+  endings stay as they were. A value is kept when you press Return or click away from it.
+- **Export to PDF and Print** — nothing is cut off at the edge of a page, and Mermaid, Graphviz,
+  LaTeX and AsciiDoc come out on white, properly paginated pages, whatever theme you read in.
+- **PDF tools work on what you see** — Organise Pages, Make Searchable, Protect, Compress,
+  Watermark and Compare include text, signatures and handwriting you have not saved yet. A second
+  handwriting session keeps the first one's ink, and "Save copy…" of a password-protected PDF you
+  unlocked is no longer blank.
+- **Redaction touches only the pages you redact** — the text recognition that keeps a redacted page
+  searchable now reads only the redacted pages that had text; it used to add recognised text to
+  every scanned page in the document.
+- **Smaller fixes** — LaTeX `equation`, `align`, `alignat` and `gather` blocks show as maths;
+  numbered lists keep their first number; Typst and PlantUML files open, as plain source.
+
 ## Android — a second update on Google Play 2026-09-26
 
 - **Selection handles in the app's colours** — when you select text in a PDF, the two handles
