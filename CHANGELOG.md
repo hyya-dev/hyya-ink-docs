@@ -269,7 +269,8 @@ ten-minute look at the app turned up.**
 you redact. It does **not** scrub document metadata, attachments or embedded files, so it
 sanitises a page — not a whole document.
 
-Every tool still writes a NEW file. The document you opened is never modified.
+Every tool except Compare still writes a NEW file; Compare only shows the result. The document
+you opened is never modified.
 
 ## 1.3.2 — 2026-08-12
 
@@ -280,7 +281,8 @@ Every tool still writes a NEW file. The document you opened is never modified.
 - `.yaml`, `.yml` and `.toml` files now open. They were greyed out before.
 - A selection made while reading no longer lingers when you switch to Add Text.
 
-Every tool still writes a NEW file. The document you opened is never modified.
+Every tool except Compare still writes a NEW file; Compare only shows the result. The document
+you opened is never modified.
 
 ## 1.3.1 — 2026-08-09
 
@@ -313,7 +315,8 @@ Every tool still writes a NEW file. The document you opened is never modified.
 - **Mark Up Text** — highlight, underline or strike through what you select.
 - Password-protected PDFs now open properly.
 
-Every tool writes a NEW file. The PDF you opened is never modified.
+Every tool except Compare writes a NEW file; Compare only shows the result. The PDF you
+opened is never modified.
 Find, Pages and contents, and opening protected PDFs are free; the rest are Pro.
 
 Also in this release: the 7-day trial is now something you **start yourself** rather
