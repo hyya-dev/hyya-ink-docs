@@ -2,6 +2,30 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.11 — Mac 2026-10-10 · iPhone & iPad 2026-10-10
+
+- **Start a document in any format** — on the Mac, **File ▸ New Document As** (and **New file** in the
+  Welcome window) starts a document as Graphviz, Mermaid, LaTeX, JSON, YAML, TOML, XML, CSV, TSV,
+  AsciiDoc, Org, Markdown or plain text, and saving offers that format (Graphviz as `.gv`). On iPhone
+  and iPad, tap the format label at the top of a text document to choose its format: the file is
+  renamed to match, and the text is not changed.
+- **Graphviz recognised in every shape** — text that starts with `graph`, `strict graph` or a comment
+  is drawn as Graphviz; it used to be taken for Mermaid.
+- **Previews recover** — a Graphviz preview draws again after a half-typed graph, and a Mermaid
+  mistake shows its message only.
+- **Smaller fixes** — on iPad, a LaTeX document exported to PDF no longer carries a hidden second copy
+  of a formula line at the top of a page; on narrow iPhones the document toolbar fits the screen.
+
+## Android — update on Google Play 2026-10-10
+
+- **New document** — start a document in any format: Graphviz, Mermaid, LaTeX, JSON and more. Android
+  asks where to save it, and it opens ready to type.
+- **Change a document's format** — tap the format label at the top of a document and choose; the file
+  is renamed to match, and the text is not changed.
+- **Graphviz recognised in every shape**, and **previews recover**, as on iPhone, iPad and Mac.
+- **Smaller fixes** — the start screen's two buttons are one width, and an empty document says
+  "Start typing…".
+
 ## 1.4.10 — iPhone & iPad 2026-09-26 · Mac 2026-09-26
 
 **The same changes on iPhone, iPad and Mac.**

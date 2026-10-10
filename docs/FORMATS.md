@@ -81,9 +81,14 @@ Flowcharts, sequence diagrams, Gantt charts, class and state diagrams rendered
 from text, offline. The rendering bundle ships inside the app — no CDN, no network.
 
 ### Graphviz / DOT (`.gv`)
-Graph layouts rendered from DOT source, inside the app and offline. **Save Graphviz files as `.gv`.** On macOS the `.dot`
-extension belongs to Word templates, and hYYa ink deliberately does not claim it — doing
-so would mean claiming every Word template on the Mac.
+Graph layouts rendered from DOT source, inside the app and offline. **Save Graphviz files as `.gv`.** On Mac, iPad and
+iPhone the `.dot` extension belongs to Word templates, and hYYa ink deliberately does not claim it — doing
+so would mean claiming every Word template on the device. Android opens both.
+
+To start one, choose **File ▸ New Document As ▸ Graphviz** on the Mac. On iPhone, iPad and Android, tap
+the format label at the top of a document (it shows **MD** for a new one) and pick **Graphviz** — the file
+becomes a `.gv`. On Android, **New document** asks for the format first. Graphviz text is also recognised
+by its first line — `digraph`, `graph`, `strict graph` or a comment — in a plain-text or untitled file.
 
 ### PlantUML (`.puml`, `.plantuml`, `.iuml`) — rendering not planned
 PlantUML files open as readable source. **Rendering PlantUML diagrams is

@@ -122,6 +122,13 @@ copy a heading and you get "Lease summary", not "# Lease summary". The raw file,
 `**`, is what the **Edit** view shows, and that view is part of Pro. Plain text, code, diffs and
 logs are the same either way, and PDFs work the way they always have.
 
+### How do I make a Graphviz, Mermaid or LaTeX document instead of Markdown?
+On the Mac, choose **File ▸ New Document As** (or **New file** in the Welcome window) and pick the
+format; saving then offers that format. On iPhone, iPad and Android, tap the format label at the top
+of the document — it shows **MD** for a new one — and choose the format: hYYa ink renames the file to
+match, so a Graphviz document becomes `.gv`. The text itself is not changed. On Android, **New
+document** asks for the format first.
+
 ### Can it preview files from Finder?
 Yes, on the Mac — hYYa ink installs a **Quick Look extension**, so pressing the space
 bar on a supported text file shows it without opening the app: CSV and TSV as a table,
