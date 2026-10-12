@@ -2,6 +2,18 @@
 
 **→ [Download hYYa ink](https://hyya.com/hyya-ink.html)**
 
+## Languages
+
+### Which languages is hYYa ink in?
+
+On Android, hYYa ink's screens follow your phone's language, in 46 languages: Arabic, Bengali, Catalan,
+Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Finnish, French (Canada),
+French (France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada,
+Korean, Malay, Malayalam, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil), Portuguese (Portugal),
+Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America), Spanish (Spain), Swedish, Tamil,
+Telugu, Thai, Turkish, Ukrainian, Urdu and Vietnamese — and English for every other language. Your
+documents are never translated: hYYa ink shows them exactly as they are written.
+
 ## Pricing & licensing
 
 ### Is hYYa ink a subscription?

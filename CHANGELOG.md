@@ -2,6 +2,13 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android — update on Google Play 2026-10-13
+
+- **hYYa ink speaks your language** — menus, buttons, settings and messages follow your phone's
+  language, in 46 languages ([the list](docs/FAQ.md#which-languages-is-hyya-ink-in)).
+- **The PDF reader follows your appearance** — its search bar and page counter use hYYa ink's own
+  colours, in light and dark.
+
 ## Android — update on Google Play 2026-10-12
 
 - **AI results say so** — every AI result says **Written by AI** and names the model, and the menu of
