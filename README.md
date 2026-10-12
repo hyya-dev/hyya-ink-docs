@@ -75,6 +75,9 @@ Found a bug or want a format supported? **[Open an issue](https://github.com/hyy
 this repository is the public issue tracker. You can also reach us via
 [hyya.com/#contact](https://hyya.com/#contact).
 
+Found a **security** problem? Please don't open an issue — tell us privately, as
+**[SECURITY.md](SECURITY.md)** explains.
+
 > This repository holds hYYa ink's public documentation and issue tracker.
 > The app itself is a commercial product; its source is not published here.
 
