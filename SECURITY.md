@@ -4,9 +4,8 @@
 
 If you find a security problem in hYYa ink — a file that makes the app run code, leak data or
 crash in a way someone could abuse, a way to read the AI key you saved, anything like that —
-please tell us **privately** through the contact form at
-**[hyya.com/#contact](https://hyya.com/#contact)**. It is the address hyya.com's
-[security.txt](https://hyya.com/.well-known/security.txt) gives for every hYYa app.
+please tell us **privately** by e-mail at **[security@hyya.com](mailto:security@hyya.com)**, or
+through the contact form at [hyya.com/#contact](https://hyya.com/#contact).
 
 **Please don't open a public issue for it.** Issues in this repository are public the moment
 they are filed, and a problem described here before it is fixed puts every reader at risk.

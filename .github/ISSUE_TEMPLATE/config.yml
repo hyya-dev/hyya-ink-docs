@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Report a security problem
-    url: https://hyya.com/#contact
-    about: Privately, please — not as a public issue. SECURITY.md says what to include.
+    url: https://github.com/hyya-dev/hyya-ink-docs/blob/main/SECURITY.md
+    about: Privately, by e-mail to security@hyya.com — please not as a public issue.
   - name: Download hYYa ink
     url: https://hyya.com/hyya-ink.html
     about: Get the app for Mac, iPad, iPhone and Android
