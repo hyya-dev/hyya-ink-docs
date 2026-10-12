@@ -6,6 +6,8 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 
 - **hYYa ink speaks your language** — menus, buttons, settings and messages follow your phone's
   language, in 46 languages ([the list](docs/FAQ.md#which-languages-is-hyya-ink-in)).
+- **Choose hYYa ink's own language** — on Android 13 and later, **Settings → Apps → hYYa ink → Language**
+  sets a language for hYYa ink alone, apart from the phone's.
 - **The PDF reader follows your appearance** — its search bar and page counter use hYYa ink's own
   colours, in light and dark.
 

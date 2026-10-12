@@ -14,6 +14,9 @@ Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America), Spanish 
 Telugu, Thai, Turkish, Ukrainian, Urdu and Vietnamese — and English for every other language. Your
 documents are never translated: hYYa ink shows them exactly as they are written.
 
+On Android 13 and later you can also give hYYa ink a language of its own, apart from the phone's:
+**Settings → Apps → hYYa ink → Language**.
+
 ## Pricing & licensing
 
 ### Is hYYa ink a subscription?
