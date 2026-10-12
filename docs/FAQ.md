@@ -39,6 +39,11 @@ there is no account and no server. The Apple apps send no telemetry at all. On A
 Google's built-in text-recognition library sends Google its own diagnostics (for example
 the device model and performance figures) — never your documents.
 
+### Does hYYa ink ask my age?
+On Android, hYYa ink checks with Google Play whether it has an age range for you. Google
+gives one only where a law requires it, and nothing appears on screen. hYYa ink keeps only
+the age band, on your device, for that session — it is never stored and never sent.
+
 ### What about the AI features?
 AI is strictly **opt-in and bring-your-own-key (BYOK)**. Nothing is sent anywhere
 unless you explicitly run an AI action. When you do, only the open document's text
@@ -49,6 +54,10 @@ Want no network at all? On **macOS** you can point hYYa ink at a local model ser
 (Ollama or LM Studio) running on your own Mac — then nothing leaves the machine. Local
 servers aren't offered on iPhone, iPad or Android, so every provider choice there is a
 cloud one. hYYa ink has **no on-device AI language model** on any platform.
+
+On Android, every AI result says **Written by AI** and names the model. Explain and
+Summarize results also carry an invisible mark that says so, which travels with the text
+when you copy it — [how it works](AI-MARKING.md).
 
 ### macOS says "Apple could not verify … is free of malware" when I open a file with hYYa ink
 

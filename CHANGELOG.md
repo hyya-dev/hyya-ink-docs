@@ -2,6 +2,19 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android — update on Google Play 2026-10-12
+
+- **AI results say so** — every AI result says **Written by AI** and names the model, and the menu of
+  AI actions is labelled **AI**. Explain and Summarize results also carry an invisible mark that
+  travels with the text when you copy it — [how it works](docs/AI-MARKING.md). Reformat and Fix
+  errors now ask the AI to keep your wording — Reformat to change only the layout, Fix errors only
+  the mistakes.
+- **Report a security issue** — **Settings → Help and more → Report a security issue** opens an
+  e-mail to security@hyya.com.
+- **Age check where a law requires it** — hYYa ink checks with Google Play, silently, for an age
+  range; Google shares one only where a law requires it. Only the age band is kept, in memory, for
+  that session — never stored, never sent.
+
 ## 1.4.11 — Mac 2026-10-10 · iPhone & iPad 2026-10-10
 
 - **Start a document in any format** — on the Mac, **File ▸ New Document As** (and **New file** in the
