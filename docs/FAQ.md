@@ -6,7 +6,7 @@
 
 ### Which languages is hYYa ink in?
 
-On Android, iPhone and iPad, hYYa ink's screens follow your device's language, in 46 languages: Arabic, Bengali, Catalan,
+hYYa ink's screens follow your device's language, in 46 languages: Arabic, Bengali, Catalan,
 Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Finnish, French (Canada),
 French (France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada,
 Korean, Malay, Malayalam, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil), Portuguese (Portugal),
@@ -15,7 +15,8 @@ Telugu, Thai, Turkish, Ukrainian, Urdu and Vietnamese — and English for every 
 documents are never translated: hYYa ink shows them exactly as they are written.
 
 You can also give hYYa ink a language of its own, apart from the device's: on iPhone and iPad, and on
-Android 13 and later, **Settings → Apps → hYYa ink → Language**.
+Android 13 and later, **Settings → Apps → hYYa ink → Language**; on the Mac, **System Settings → General →
+Language & Region → Applications**.
 
 ## Pricing & licensing
 
@@ -61,6 +62,8 @@ the age band, on your device, for that session — it is never stored and never 
 On iPhone and iPad, hYYa ink asks the App Store for an age range only where Apple says a law
 applies; the App Store may then show its own question. The same rule holds: only the age band,
 on your device, for that session.
+On the Mac, hYYa ink follows the same rule; Apple does not report a law that applies to the Mac
+today, so nothing is asked there.
 
 ### What about the AI features?
 AI is strictly **opt-in and bring-your-own-key (BYOK)**. Nothing is sent anywhere
@@ -73,7 +76,7 @@ Want no network at all? On **macOS** you can point hYYa ink at a local model ser
 servers aren't offered on iPhone, iPad or Android, so every provider choice there is a
 cloud one. hYYa ink has **no on-device AI language model** on any platform.
 
-On Android, iPhone and iPad, every AI result says **Written by AI** and names the model. Explain and
+Every AI result says **Written by AI** and names the model. Explain and
 Summarize results also carry an invisible mark that says so, which travels with the text
 when you copy it — [how it works](AI-MARKING.md).
 

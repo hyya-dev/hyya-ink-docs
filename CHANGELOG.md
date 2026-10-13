@@ -2,21 +2,23 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 1.4.12 — iPhone & iPad 2026-10-13
+## 1.4.12 — Mac 2026-10-13 · iPhone & iPad 2026-10-13
 
 - **hYYa ink speaks your language** — menus, buttons, settings and messages follow your device's
-  language, in 46 languages ([the list](docs/FAQ.md#which-languages-is-hyya-ink-in)); **Settings → Apps →
-  hYYa ink → Language** gives hYYa ink a language of its own.
+  language, in 46 languages ([the list](docs/FAQ.md#which-languages-is-hyya-ink-in)), and hYYa ink can
+  have a language of its own: **Settings → Apps → hYYa ink → Language** on iPhone and iPad, **System
+  Settings → General → Language & Region → Applications** on the Mac.
 - **AI results say so** — every AI result says **Written by AI** and names the model, and the AI actions
   are labelled **AI**. Explain and Summarize results also carry an invisible mark that travels with the
   text when you copy it — [how it works](docs/AI-MARKING.md).
 - **Report a security issue** — **Settings → Help and more → Report a security issue** opens an e-mail
   to security@hyya.com.
 - **Age check where a law requires it** — hYYa ink asks the App Store for an age range only where Apple
-  says a law applies. Only the age band is kept, in memory, for that session — never stored, never sent.
-- **Fixes** — in Auto appearance on a light iPhone or iPad, document text is readable again (it could be
-  near-invisible since mid-September); the list of formats in Settings no longer draws a format over the
-  next row in longer languages.
+  says a law applies (none applies to the Mac today, so the Mac asks nothing). Only the age band is kept, in memory, for that session — never stored, never sent.
+- **Save as another format (Mac)** — saving a document as another format shows it as that format at once.
+- **Fixes** — in Auto appearance on a light Mac, iPhone or iPad, document text is readable again (it could
+  be near-invisible since mid-September); on iPhone and iPad, the list of formats in Settings no longer
+  draws a format over the next row in longer languages.
 
 ## Android — update on Google Play 2026-10-13
 
