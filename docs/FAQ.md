@@ -6,7 +6,7 @@
 
 ### Which languages is hYYa ink in?
 
-On Android, hYYa ink's screens follow your phone's language, in 46 languages: Arabic, Bengali, Catalan,
+On Android, iPhone and iPad, hYYa ink's screens follow your device's language, in 46 languages: Arabic, Bengali, Catalan,
 Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Finnish, French (Canada),
 French (France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada,
 Korean, Malay, Malayalam, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil), Portuguese (Portugal),
@@ -14,8 +14,8 @@ Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America), Spanish 
 Telugu, Thai, Turkish, Ukrainian, Urdu and Vietnamese — and English for every other language. Your
 documents are never translated: hYYa ink shows them exactly as they are written.
 
-On Android 13 and later you can also give hYYa ink a language of its own, apart from the phone's:
-**Settings → Apps → hYYa ink → Language**.
+You can also give hYYa ink a language of its own, apart from the device's: on iPhone and iPad, and on
+Android 13 and later, **Settings → Apps → hYYa ink → Language**.
 
 ## Pricing & licensing
 
@@ -58,6 +58,9 @@ the device model and performance figures) — never your documents.
 On Android, hYYa ink checks with Google Play whether it has an age range for you. Google
 gives one only where a law requires it, and nothing appears on screen. hYYa ink keeps only
 the age band, on your device, for that session — it is never stored and never sent.
+On iPhone and iPad, hYYa ink asks the App Store for an age range only where Apple says a law
+applies; the App Store may then show its own question. The same rule holds: only the age band,
+on your device, for that session.
 
 ### What about the AI features?
 AI is strictly **opt-in and bring-your-own-key (BYOK)**. Nothing is sent anywhere
@@ -70,7 +73,7 @@ Want no network at all? On **macOS** you can point hYYa ink at a local model ser
 servers aren't offered on iPhone, iPad or Android, so every provider choice there is a
 cloud one. hYYa ink has **no on-device AI language model** on any platform.
 
-On Android, every AI result says **Written by AI** and names the model. Explain and
+On Android, iPhone and iPad, every AI result says **Written by AI** and names the model. Explain and
 Summarize results also carry an invisible mark that says so, which travels with the text
 when you copy it — [how it works](AI-MARKING.md).
 

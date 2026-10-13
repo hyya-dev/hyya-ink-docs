@@ -1,6 +1,6 @@
 # How hYYa ink marks AI-written text
 
-In hYYa ink for Android, the **Explain** and **Summarize** actions write new text with an AI
+In hYYa ink for Android, iPhone and iPad, the **Explain** and **Summarize** actions write new text with an AI
 service you choose. That text carries an invisible mark saying it was written by AI, as the EU AI
 Act asks of AI-generated text (Article 50(2)). It is shown on screen with the words
 **"Written by AI"** and the model's name, and the mark goes with the text when you copy it.
