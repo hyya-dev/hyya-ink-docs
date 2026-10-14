@@ -127,8 +127,7 @@ hYYa — only to the AI service you chose, when you turn AI on, load its models,
 AI action.
 
 ### Which AI providers work?
-Any OpenAI-compatible endpoint over HTTPS — OpenRouter, OpenAI, Groq, Together AI, or a
-custom endpoint. On macOS you can also point it at a local server such as Ollama or LM
+Any compatible endpoint over HTTPS — OpenRouter, Groq, Together AI, or a custom endpoint. On macOS you can also point it at a local server such as Ollama or LM
 Studio, which keeps everything on your machine.
 
 ## Using the app

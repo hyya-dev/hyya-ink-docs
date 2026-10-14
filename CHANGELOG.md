@@ -20,6 +20,12 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   be near-invisible since mid-September); on iPhone and iPad, the list of formats in Settings no longer
   draws a format over the next row in longer languages.
 
+## Android — update on Google Play 2026-10-14
+
+- **The list of AI services changed** — the AI services offered are OpenRouter, Groq and Together AI, or a
+  compatible server of your own. A setup that no longer works is turned off once, and **Settings → AI**
+  says so and asks you to choose another service; nothing else changes.
+
 ## Android — update on Google Play 2026-10-13
 
 - **hYYa ink speaks your language** — menus, buttons, settings and messages follow your phone's
