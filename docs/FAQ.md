@@ -36,7 +36,7 @@ does not unlock the Apple apps.
 ### Where do I get hYYa ink?
 For Mac, iPad, iPhone and Apple Vision Pro, from the **App Store** — one listing covers all four. For
 Android, from **[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink)**
-(Android 9 or later). There was a direct `.dmg` download for Mac with its own license
+(Android 12 or later). There was a direct `.dmg` download for Mac with its own license
 key; that was retired in July 2026.
 
 ### Is there a trial?
@@ -200,11 +200,11 @@ signature backed by a certificate authority.
 ## Platforms
 
 ### What are the system requirements?
-macOS 14 or later; iPadOS/iOS 17 or later; Apple Vision Pro: visionOS 26 or later; Android 9 or later.
+macOS 14 or later; iPadOS/iOS 17 or later; Apple Vision Pro: visionOS 26 or later; Android 12 or later.
 
 ### Is there an Android or Windows version?
 **Android: yes** — hYYa ink is on
-[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink) for Android 9
+[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink) for Android 12
 or later. It is a separate app with its own version numbers, and its Pro is a Google Play
 purchase. Windows: not today.
 
