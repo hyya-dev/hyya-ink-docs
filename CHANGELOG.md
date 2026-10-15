@@ -2,6 +2,12 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Apple Vision Pro 1.4.13 — 2026-10-15
+
+- **The list of AI services changed** — the AI services offered are OpenRouter, Groq and Together AI, or a
+  compatible server of your own. A setup that no longer works is turned off once, and **Settings → AI**
+  says so and asks you to choose another service; nothing else changes.
+
 ## 1.4.12 — Mac 2026-10-13 · iPhone & iPad 2026-10-13
 
 - **hYYa ink speaks your language** — menus, buttons, settings and messages follow your device's
