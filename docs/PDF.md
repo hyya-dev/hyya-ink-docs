@@ -218,8 +218,8 @@ Exporting to PDF is **free**.
 | Mark Up Text, Redact & Replace, Make Searchable, Organise Pages, Protect, Compress, Watermark, Compare | | ✅ |
 | AI actions *(other formats — not available for PDFs)* | | ✅ |
 
-Pro is a **one-time purchase**, not a subscription, and unlocks across your Mac,
-iPad and iPhone. On Android, Pro is a separate one-time purchase through Google Play.
+Pro is a **one-time purchase**, not a subscription, and unlocks across all your Apple
+devices. On Android, Pro is a separate one-time purchase through Google Play.
 
 ## Privacy
 
