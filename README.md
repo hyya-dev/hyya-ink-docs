@@ -1,4 +1,4 @@
-# hYYa ink — read and edit every document, natively on Mac, iPad, iPhone and Android
+# hYYa ink — read and edit every document, natively on Mac, iPad, iPhone, Apple Vision Pro and Android
 
 **Stop reading syntax. Start reading/editing documents.**
 
@@ -53,13 +53,14 @@ Full breakdown of what each format renders → **[docs/FORMATS.md](docs/FORMATS.
 
 - **macOS** 14+ — Mac App Store
 - **iPadOS / iOS** 17+ — App Store (Universal Purchase with the Mac app)
+- **Apple Vision Pro** — visionOS 26+, native — App Store (the same Universal Purchase)
 - **Android** 9+ — Google Play
 
 ## Pricing
 
 Free to download and **free forever to read and preview** — including PDF export.
 Editing, signing and AI actions are a **one-time purchase**. No subscription.
-Buy once on the App Store and it unlocks on your Mac, iPad and iPhone. On Android,
+Buy once on the App Store and it unlocks on your Mac, iPad, iPhone and Apple Vision Pro. On Android,
 Pro is a separate one-time purchase through Google Play.
 
 ## Documentation

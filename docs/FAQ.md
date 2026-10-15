@@ -27,14 +27,14 @@ with a **single one-time purchase**.
 
 ### Do I have to buy it twice for Mac and iPhone?
 No. The Mac App Store and iOS apps are a **Universal Purchase** — buy once with
-your Apple Account and Pro unlocks on your Mac, iPad and iPhone.
+your Apple Account and Pro unlocks on your Mac, iPad, iPhone and Apple Vision Pro.
 
 On **Android**, Pro is a separate one-time purchase through Google Play, tied to your
 Google account. An App Store purchase does not unlock Android, and a Google Play purchase
 does not unlock the Apple apps.
 
 ### Where do I get hYYa ink?
-For Mac, iPad and iPhone, from the **App Store** — one listing covers all three. For
+For Mac, iPad, iPhone and Apple Vision Pro, from the **App Store** — one listing covers all four. For
 Android, from **[Google Play](https://play.google.com/store/apps/details?id=com.hyya.ink)**
 (Android 9 or later). There was a direct `.dmg` download for Mac with its own license
 key; that was retired in July 2026.
@@ -200,7 +200,7 @@ signature backed by a certificate authority.
 ## Platforms
 
 ### What are the system requirements?
-macOS 14 or later; iPadOS/iOS 17 or later; Android 9 or later.
+macOS 14 or later; iPadOS/iOS 17 or later; Apple Vision Pro: visionOS 26 or later; Android 9 or later.
 
 ### Is there an Android or Windows version?
 **Android: yes** — hYYa ink is on

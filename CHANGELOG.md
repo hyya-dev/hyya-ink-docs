@@ -20,6 +20,15 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   be near-invisible since mid-September); on iPhone and iPad, the list of formats in Settings no longer
   draws a format over the next row in longer languages.
 
+## Apple Vision Pro 1.4.12 — 2026-10-14
+
+- **hYYa ink is now native on Apple Vision Pro** — the same app, built for visionOS 26 or later, in place of
+  the iPad app it used to run. Read every format, select and copy text, use Split, edit JSON values in the
+  tree, and browse a PDF's pages. Your Pro purchase already covers it. Add Text on PDFs is not offered on
+  Apple Vision Pro.
+- It carries everything in 1.4.12: the app's screens in 46 languages, "Written by AI" on every AI result,
+  and **Settings → Help and more → Report a security issue**.
+
 ## Android — update on Google Play 2026-10-14
 
 - **The list of AI services changed** — the AI services offered are OpenRouter, Groq and Together AI, or a
