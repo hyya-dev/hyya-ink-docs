@@ -156,7 +156,7 @@ system update; without one, the **Find** button is not shown.
 
 ## Document tools
 
-The document tools — all Pro, on every platform. On iPhone they live in the **•••**
+The document tools are all Pro. On iPhone they live in the **•••**
 Tools menu; on the Mac and iPad they are in the **•••** menu in the toolbar; on Android,
 in the **⋮** Tools menu.
 
