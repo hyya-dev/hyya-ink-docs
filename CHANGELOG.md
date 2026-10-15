@@ -7,7 +7,7 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 - **Requires Android 12 or later** (it was Android 9): the PDF reader's search and editing need it.
 - The keyboard no longer covers the text bar's buttons on Android 12–14.
 
-## Apple Vision Pro 1.4.13 — 2026-10-15
+## 1.4.13 — Apple Vision Pro 2026-10-15 · iPhone & iPad 2026-10-15
 
 - **The list of AI services changed** — the AI services offered are OpenRouter, Groq and Together AI, or a
   compatible server of your own. A setup that no longer works is turned off once, and **Settings → AI**
