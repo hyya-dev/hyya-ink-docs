@@ -151,7 +151,8 @@ Saving a copy requires Pro.
 
 All three are **free**, on every platform. On the Mac, Find and the page sidebar are
 icon buttons; their names appear as tooltips rather than printed captions. On Android
-they are the **Find** and **Pages** buttons.
+they are the **Find** and **Pages** buttons. On Android 12, 13 and 14, Find needs a recent Google Play
+system update; without one, the **Find** button is not shown.
 
 ## Document tools
 
