@@ -2,6 +2,11 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android — update on Google Play 2026-10-16
+
+- On Android 12–14 phones and tablets without Google's newest system update, choosing a chapter from a PDF's
+  contents with the device turned sideways now opens at the top of that page (it could land on an empty part of it).
+
 ## Android — update on Google Play 2026-10-15
 
 - **Requires Android 12 or later** (it was Android 9): the PDF reader's search and editing need it.
