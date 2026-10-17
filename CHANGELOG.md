@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.4.14 — iPhone & iPad 2026-10-17 · Mac 2026-10-17
+
+- The paywall now says the purchase is yours across all your devices (it listed Mac, iPad and iPhone).
+
 ## Android — update on Google Play 2026-10-16
 
 - On Android 12–14 phones and tablets without Google's newest system update, choosing a chapter from a PDF's
