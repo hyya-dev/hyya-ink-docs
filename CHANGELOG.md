@@ -2,6 +2,11 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 1.5.0 — iPhone & iPad 2026-10-18
+
+- **Settings opens with a "Rate the App" card** — a thank-you and a button to hYYa ink's page in the App Store.
+- At the largest text sizes, Settings keeps the text-size row and its percentage on one line.
+
 ## 1.4.14 — iPhone & iPad 2026-10-17 · Mac 2026-10-17
 
 - The paywall now says the purchase is yours across all your devices (it listed Mac, iPad and iPhone).
