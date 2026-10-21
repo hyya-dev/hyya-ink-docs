@@ -2,6 +2,15 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.0.0 — update on Google Play 2026-10-21
+
+- **Save As** replaces Export to PDF in the **⋮** menu. It saves the open document as a **new** file — PDF (free, as
+  before), or with Pro: JSON, YAML, TOML and XML into one another, CSV and TSV, Jupyter notebooks and Org files as
+  Markdown, Markdown and AsciiDoc as a web page, Mermaid and Graphviz diagrams as SVG or PNG. The document you opened
+  stays as it is. If something can't carry over exactly, hYYa ink says so before you save.
+- **Settings opens with a "Rate the App" card** — a thank-you and a button to hYYa ink's page on Google Play.
+- At the largest text sizes, Settings keeps the text-size row and its percentage on one line.
+
 ## 1.5.0 — Apple Vision Pro 2026-10-20 · iPhone & iPad 2026-10-18 · Mac 2026-10-20
 
 - **Settings opens with a "Rate the App" card** — a thank-you and a button to hYYa ink's page in the App Store.

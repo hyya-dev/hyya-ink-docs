@@ -150,3 +150,22 @@ macOS-only; there is no equivalent on iPhone or iPad.
 you'd like rendered.
 
 **→ [Download hYYa ink](https://hyya.com/hyya-ink.html)**
+
+## Save as another format
+
+On Android, **⋮ → Save As…** saves the open document as a **new** file in another format. The document you opened
+stays as it is.
+
+| From | To |
+|---|---|
+| JSON, YAML, TOML, XML | each other, and CSV or TSV when the data is a list of records |
+| CSV, TSV | each other, and JSON, YAML, TOML or XML |
+| Jupyter notebook, Org | Markdown |
+| Markdown, AsciiDoc | a web page (HTML) |
+| Mermaid, Graphviz | an SVG or PNG image |
+| Any format | PDF |
+
+Saving as PDF is **free**; the other formats come with Pro. Key order and numbers come across exactly as written. If
+something can't carry over exactly — XML comments, for example — hYYa ink says so before you save, and if it can't be
+done at all (TOML has no empty value), it says why and makes nothing. Everything happens on the device.
+

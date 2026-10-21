@@ -198,7 +198,7 @@ comes out as the formatted document. On Mac, iPad and iPhone, Mermaid diagrams,
 Graphviz, LaTeX and AsciiDoc come out rendered. Everything else — and those four on
 Android — comes out as its text.
 
-Exporting to PDF is **free**.
+Exporting to PDF is **free**. On Android it is **⋮ → Save As… → PDF**.
 
 ---
 
