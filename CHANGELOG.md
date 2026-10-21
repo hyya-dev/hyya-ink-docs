@@ -2,10 +2,14 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 1.5.0 — iPhone & iPad 2026-10-18
+## 1.5.0 — Apple Vision Pro 2026-10-20 · iPhone & iPad 2026-10-18 · Mac 2026-10-20
 
 - **Settings opens with a "Rate the App" card** — a thank-you and a button to hYYa ink's page in the App Store.
 - At the largest text sizes, Settings keeps the text-size row and its percentage on one line.
+- On Apple Vision Pro: **Unlock Pro works** — the App Store's purchase confirmation now opens in the paywall's own
+  window (before, pressing Unlock Pro or the free trial could do nothing).
+- On Apple Vision Pro: **opens on visionOS 26.0** — earlier versions closed a few seconds after opening there.
+- On Apple Vision Pro: the paywall says the purchase is yours across all your devices.
 
 ## 1.4.14 — iPhone & iPad 2026-10-17 · Mac 2026-10-17
 
