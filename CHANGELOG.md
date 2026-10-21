@@ -2,7 +2,7 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 2.0.0 — Apple Vision Pro 2026-10-21
+## 2.0.0 — Apple Vision Pro 2026-10-21 · iPhone & iPad 2026-10-22
 
 - **Save As** replaces Export to PDF in the toolbar. It saves the open document as a **new** file — PDF (free, as
   before), or with Pro: JSON, YAML, TOML and XML into one another, CSV and TSV, Jupyter notebooks and Org files as
