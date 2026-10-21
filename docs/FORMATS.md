@@ -153,7 +153,7 @@ you'd like rendered.
 
 ## Save as another format
 
-On Android, **⋮ → Save As…** saves the open document as a **new** file in another format. The document you opened
+**Save As…** — in the toolbar on Apple Vision Pro, in the **⋮** menu on Android — saves the open document as a **new** file in another format. The document you opened
 stays as it is.
 
 | From | To |

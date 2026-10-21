@@ -2,6 +2,14 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.0.0 — Apple Vision Pro 2026-10-21
+
+- **Save As** replaces Export to PDF in the toolbar. It saves the open document as a **new** file — PDF (free, as
+  before), or with Pro: JSON, YAML, TOML and XML into one another, CSV and TSV, Jupyter notebooks and Org files as
+  Markdown, Markdown and AsciiDoc as a web page, Mermaid and Graphviz diagrams as SVG or PNG. The document you opened
+  stays as it is. If something can't carry over exactly, hYYa ink says so before you save.
+- The paywall lists "Save in all supported formats".
+
 ## Android 2.0.0 — update on Google Play 2026-10-21
 
 - **Save As** replaces Export to PDF in the **⋮** menu. It saves the open document as a **new** file — PDF (free, as
