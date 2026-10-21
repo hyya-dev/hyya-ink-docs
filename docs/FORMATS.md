@@ -163,7 +163,7 @@ stays as it is.
 | Jupyter notebook, Org | Markdown |
 | Markdown, AsciiDoc | a web page (HTML) |
 | Mermaid, Graphviz | an SVG or PNG image |
-| Any format | PDF |
+| Every format except PDF itself | PDF |
 
 Saving as PDF is **free**; the other formats come with Pro. Key order and numbers come across exactly as written. If
 something can't carry over exactly — XML comments, for example — hYYa ink says so before you save, and if it can't be
