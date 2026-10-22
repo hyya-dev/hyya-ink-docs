@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.0.0 — update on Google Play 2026-10-22
+
+- Settings → **hYYa ink Pro** says "save as PDF", and lists saving in other formats among what Pro adds.
+
 ## 2.0.0 — Apple Vision Pro 2026-10-21 · iPhone & iPad 2026-10-22 · Mac 2026-10-22
 
 - **Save As** replaces Export to PDF in the toolbar (on the Mac also **File ▸ Save As…**, ⇧⌘S). It saves the open document as a **new** file — PDF (free, as
