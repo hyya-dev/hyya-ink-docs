@@ -2,6 +2,11 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.0.0 — update on Google Play 2026-10-23
+
+- After the free trial ends, the banner names what Pro brings back: editing, signing, saving in other formats and AI.
+- hYYa ink now asks for a rating right after you save or convert a document, or unlock Pro — at most once per version.
+
 ## Android 2.0.0 — update on Google Play 2026-10-22
 
 - Settings → **hYYa ink Pro** says "save as PDF", and lists saving in other formats among what Pro adds.
