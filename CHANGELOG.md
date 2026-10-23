@@ -2,6 +2,13 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.0.0 — Fill & Sign, on Google Play 2026-10-23
+
+- **Fill & Sign** replaces Add Text: type straight onto a PDF, tick or cross boxes, add today's date and sign, all from
+  one band of tools at the top of the page. **Done** offers to save a filled copy in one step.
+- New text starts at the size you last chose, and only the text you are typing shows its editing box.
+- Settings → **hYYa ink Pro** names Fill & Sign among what Pro adds.
+
 ## Android 2.0.0 — update on Google Play 2026-10-23
 
 - After the free trial ends, the banner names what Pro brings back: editing, signing, saving in other formats and AI.

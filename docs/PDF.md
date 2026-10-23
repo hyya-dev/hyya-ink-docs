@@ -30,6 +30,16 @@ paperwork with no form fields at all, the common case that trips up other tools.
 
 Nothing is written to a file yet — see [Saving](#saving-writes-a-new-file) below.
 
+**On Android: Fill & Sign.** One button does it all:
+
+1. Tap **Fill & Sign** in the toolbar — its tools appear in a band at the top
+2. Tap where the text goes and type — it appears on the page as you type
+3. For boxes, tap **Tick** or **Cross**, then each box. For the date, tap **Today's date**, then the spot
+4. **Sign** opens the signature pad; once your signature is on the page you are back in Fill & Sign
+5. Tap **Done**, then **Save filled copy** — or **Keep editing**, or **Not now** to keep everything on the page
+
+New text starts at the size you last chose.
+
 Typed text is placed **verbatim**. No AI is involved anywhere in this flow — there is
 no "interpret this" button, no suggestion, and no network call. You click or tap a spot
 and you type.
