@@ -22,15 +22,15 @@ hYYa ink detects no form fields and never hunts for boxes — you place every pi
 text yourself, at the exact spot you tap. That is what lets it work on flat, scanned
 paperwork with no form fields at all, the common case that trips up other tools.
 
-1. Tap **Add Text** in the toolbar (on iPhone, it's in the **•••** Tools menu)
-2. Tap anywhere on the page where text should go
-3. Type — the text appears exactly where you tapped
-4. Drag to reposition, or re-edit any entry
-5. Tap **Done** when you have finished adding text
+1. On the Mac, click **Add Text** in the toolbar
+2. Click anywhere on the page where text should go
+3. Type — the text appears exactly where you clicked
+4. Drag to move it, or click any entry to change it
+5. Click **Done** when you have finished adding text
 
 Nothing is written to a file yet — see [Saving](#saving-writes-a-new-file) below.
 
-**On Android: Fill & Sign.** One button does it all:
+**On iPhone, iPad and Android: Fill & Sign.** One button does it all:
 
 1. Tap **Fill & Sign** in the toolbar — its tools appear in a band at the top
 2. Tap where the text goes and type — it appears on the page as you type
