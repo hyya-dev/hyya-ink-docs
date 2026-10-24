@@ -2,12 +2,12 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 2.0.1 — iPhone & iPad 2026-10-23
+## 2.0.1 — iPhone & iPad 2026-10-23 · Mac 2026-10-24
 
 - **Fill & Sign** replaces Add Text: type straight onto a PDF, tick or cross boxes, add today's date and sign, all from
   one band of tools at the top of the page. **Done** offers to save a filled copy in one step.
 - New text starts at the size you last chose, and only the text you are typing shows its editing box.
-- Markup's ink now shows while you draw in Dark Mode (it appeared only after **Done**).
+- On iPhone and iPad, Markup's ink now shows while you draw in Dark Mode (it appeared only after **Done**).
 - hYYa ink asks for a rating right after you save or convert a document, or unlock Pro — at most once per version.
 - After the free trial ends, the banner names what Pro brings back: editing, signing, saving in other formats and AI.
 - Settings → **hYYa ink Pro** says "save as PDF" and names saving in other formats and Fill & Sign among what Pro adds.

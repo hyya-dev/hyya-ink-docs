@@ -22,21 +22,15 @@ hYYa ink detects no form fields and never hunts for boxes — you place every pi
 text yourself, at the exact spot you tap. That is what lets it work on flat, scanned
 paperwork with no form fields at all, the common case that trips up other tools.
 
-1. On the Mac, click **Add Text** in the toolbar
-2. Click anywhere on the page where text should go
-3. Type — the text appears exactly where you clicked
-4. Drag to move it, or click any entry to change it
-5. Click **Done** when you have finished adding text
+**Fill & Sign** does it all, on the Mac, iPhone, iPad and Android (tap or click):
 
-Nothing is written to a file yet — see [Saving](#saving-writes-a-new-file) below.
-
-**On iPhone, iPad and Android: Fill & Sign.** One button does it all:
-
-1. Tap **Fill & Sign** in the toolbar — its tools appear in a band at the top
-2. Tap where the text goes and type — it appears on the page as you type
-3. For boxes, tap **Tick** or **Cross**, then each box. For the date, tap **Today's date**, then the spot
+1. Choose **Fill & Sign** in the toolbar — its tools appear in a band at the top
+2. Tap or click where the text goes and type — it appears on the page as you type
+3. For boxes, choose **Tick** or **Cross**, then each box. For the date, choose **Today's date**, then the spot
 4. **Sign** opens the signature pad; once your signature is on the page you are back in Fill & Sign
-5. Tap **Done**, then **Save filled copy** — or **Keep editing**, or **Not now** to keep everything on the page
+5. Choose **Done**, then **Save filled copy** — or **Keep editing**, or **Not now** to keep everything on the page
+
+Nothing is written to a file until you save — see [Saving](#saving-writes-a-new-file) below.
 
 New text starts at the size you last chose.
 
@@ -143,7 +137,7 @@ ordinary text editing, at **Edit ▸ Redo**, and inside the signature pad.)
 
 ## Saving writes a NEW file
 
-Every tool here — Add Text, Sign, Markup, and each of the document tools below —
+Every tool here — Fill & Sign, Sign, Markup, and each of the document tools below —
 leaves the PDF you opened **untouched**. Your edits stay live while the document is
 open, and saving — **Save copy…** on the Mac, the save button on iPhone, iPad and
 Android — writes them into a **new** file. hYYa ink never overwrites your original.
