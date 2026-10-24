@@ -2,6 +2,13 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.0.2 — iPhone & iPad 2026-10-24
+
+- **Made for iPhone Duo:** open it like a book to read a PDF two pages at a time, one on each side of the fold. Split
+  puts your text on one half and the finished document on the other; drag the divider to change the widths, and
+  double-tap to put it back. hYYa ink's tools sit in the Duo's side bar.
+- Closing a PDF with Fill & Sign entries you have not saved asks first: save a copy, discard, or cancel.
+
 ## 2.0.1 — iPhone & iPad 2026-10-23 · Mac 2026-10-24
 
 - **Fill & Sign** replaces Add Text: type straight onto a PDF, tick or cross boxes, add today's date and sign, all from
