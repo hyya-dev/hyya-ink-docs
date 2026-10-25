@@ -2,7 +2,7 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 2.0.3 — Mac 2026-10-25
+## 2.0.3 — Mac 2026-10-25 · iPhone & iPad 2026-10-25
 
 - A copy you save from a password-protected PDF (signed, filled, redacted or from any tool) keeps the same password.
 - Settings has a card for hyya.com, the home of every hYYa app.
