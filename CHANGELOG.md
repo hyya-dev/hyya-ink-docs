@@ -2,6 +2,13 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.0.3 — on Google Play 2026-10-25
+
+- A copy you save from a password-protected PDF (signed, filled, redacted or from any tool) keeps the same password.
+- Settings has a card for hyya.com, the home of every hYYa app.
+- Security fixes: a document can no longer run hidden code in the preview, and your AI key only ever goes to the service
+  you typed it for, over an encrypted connection.
+
 ## 2.0.2 — iPhone & iPad 2026-10-24
 
 - **Made for iPhone Duo:** open it like a book to read a PDF two pages at a time, one on each side of the fold. Split
