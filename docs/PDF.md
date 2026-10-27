@@ -151,8 +151,8 @@ Saving a copy requires Pro.
 - **Pages and contents** — page thumbnails, plus the PDF's own table of contents when
   it has one. Beside the page on the Mac and
   iPad; a sheet on iPhone.
-- **Password-protected PDFs** open normally — hYYa ink asks for the password. On Android, the Mac, iPhone and iPad, a copy
-  you save from one keeps the same password.
+- **Password-protected PDFs** open normally — hYYa ink asks for the password. A copy you save from
+  one keeps the same password.
 
 All three are **free**, on every platform. On the Mac, Find and the page sidebar are
 icon buttons; their names appear as tooltips rather than printed captions. On Android

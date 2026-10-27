@@ -9,6 +9,16 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 - Security fixes: a document can no longer run hidden code in the preview, and your AI key only ever goes to the service
   you typed it for, over an encrypted connection.
 
+## 2.0.3 — Apple Vision Pro 2026-10-27
+
+- A copy you save from a password-protected PDF (signed, redacted or from any tool) keeps the same password.
+- Settings has a card for hyya.com, the home of every hYYa app.
+- Security fixes: a document can no longer run hidden code in the preview, and your AI key only ever goes to the service
+  you typed it for, over an encrypted connection.
+- hYYa ink asks for a rating right after you save or convert a document, or unlock Pro — at most once per version.
+- After the free trial ends, the banner names what Pro brings back: editing, signing, saving in other formats and AI.
+- Settings → **hYYa ink Pro** says "save as PDF" and names saving in other formats among what Pro adds.
+
 ## Android 2.0.3 — on Google Play 2026-10-25
 
 - A copy you save from a password-protected PDF (signed, filled, redacted or from any tool) keeps the same password.
