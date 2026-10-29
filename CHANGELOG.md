@@ -2,6 +2,26 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.1.0 — iPhone & iPad 2026-10-29 · Mac 2026-10-29
+
+- **Sign once, reuse it:** Sign can keep your signature or initials for next time, stored on this device only, and
+  add stamps — Approved, Paid, Draft, Confidential, Received, today's date or a word of your own.
+- **New PDF tools:** Images to PDF, PDF to Images, Extract Pages (or split a PDF into several files) and Remove Password,
+  offered on a PDF that asks for a password. Each saves a new file; your original is never changed.
+- **AI for PDFs:** Explain and Summarize read a PDF's own text, and a new Translate action works on any document.
+- **CSV and TSV:** sort by a column, filter rows, find & replace, and a count of rows and columns.
+- The parts of a split password-protected PDF keep its password, like every other copy.
+
+## Android 2.1.0 — on Google Play 2026-10-29
+
+- **Sign once, reuse it:** Sign can keep your signature or initials for next time, stored on this device only, and
+  add stamps — Approved, Paid, Draft, Confidential, Received, today's date or a word of your own.
+- **New PDF tools:** Images to PDF, PDF to Images, Extract Pages (or split a PDF into several files) and Remove Password,
+  offered on a PDF that asks for a password. Each saves a new file; your original is never changed.
+- **AI for PDFs:** Explain and Summarize read a PDF's own text, and a new Translate action works on any document.
+- **CSV and TSV:** sort by a column, filter rows, find & replace, and a count of rows and columns.
+- The parts of a split password-protected PDF keep its password, like every other copy.
+
 ## 2.0.3 — Mac 2026-10-25 · iPhone & iPad 2026-10-25
 
 - A copy you save from a password-protected PDF (signed, filled, redacted or from any tool) keeps the same password.
