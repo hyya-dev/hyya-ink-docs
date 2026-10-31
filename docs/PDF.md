@@ -51,6 +51,9 @@ can also tap it to move, resize or turn it. When you save, it is **flattened int
 page content of a new file**, so in the copy you send it survives re-opening and sharing
 and isn't a floating annotation that other viewers can drop.
 
+Sign can keep your signature or initials for next time, stored on this device only. It also
+adds stamps: Approved, Paid, Draft, Confidential, Received, today's date or a word of your own.
+
 > **Note:** this is a *visual* signature — the handwritten-signature equivalent of
 > signing a printed page. It is not a cryptographic/PAdES digital signature.
 
@@ -174,6 +177,10 @@ in the **⋮** Tools menu.
 | **Watermark** | Live preview as you set the wording and strength. |
 | **Compare** | See which pages differ from another PDF. On Mac, iPad and iPhone it compares the words on each page; on Android it compares how each page looks. |
 | **Mark Up Text** | Highlight, underline or strike through selected text (on Android, drag across the words). |
+| **Images to PDF** | Make one PDF from photos or pictures. |
+| **PDF to Images** | Save pages as PNG or JPEG pictures. |
+| **Extract Pages** | Copy chosen pages to a new PDF, or split a PDF into several files. The parts of a password-protected PDF keep its password. |
+| **Remove Password** | Save a copy that opens without a password. Offered on a PDF that asks for a password. |
 | **Redact & Replace** | **Redact** removes selected text permanently (on Android, drag across the words): the page is saved as a picture, so the words leave the file — they cannot be selected, copied or searched in the saved copy. Only the pages you redact become pictures; the other pages keep their text. Text recognition then re-reads the ones that had text, so the text you kept stays searchable. **Replace** swaps selected text for new text; the original is removed the same way, so the saved file cannot display one value and extract another. |
 
 > **What happens to the rest of a redacted page.** That page becomes an image; if it
@@ -217,16 +224,17 @@ Exporting to PDF is **free**. On Mac, iPhone, iPad and Apple Vision Pro it is **
 | Pages and contents | ✅ | ✅ |
 | Open a password-protected PDF | ✅ | ✅ |
 | Add text to a PDF | | ✅ |
-| Sign by hand | | ✅ |
+| Sign by hand, saved signatures and stamps | | ✅ |
 | Mark up by hand | | ✅ |
 | Save a copy with your edits | | ✅ |
-| Mark Up Text, Redact & Replace, Make Searchable, Organise Pages, Protect, Compress, Watermark, Compare | | ✅ |
-| AI actions *(other formats — not available for PDFs)* | | ✅ |
+| Mark Up Text, Redact & Replace, Make Searchable, Organise Pages, Protect, Compress, Watermark, Compare, Images to PDF, PDF to Images, Extract Pages, Remove Password | | ✅ |
+| AI actions *(on a PDF: Explain, Summarize and Translate)* | | ✅ |
 
 Pro is a **one-time purchase**, not a subscription, and unlocks across all your Apple
 devices. On Android, Pro is a separate one-time purchase through Google Play.
 
 ## Privacy
 
-PDFs are parsed and rendered entirely on-device, and their content is never uploaded:
-the AI actions aren't available for PDFs. For everything else, see the [FAQ](FAQ.md).
+PDFs are parsed and rendered entirely on-device, and their content is never uploaded unless
+you run an AI action on one. Then the PDF's own text goes to the AI service you chose, with
+your own key. For everything else, see the [FAQ](FAQ.md).

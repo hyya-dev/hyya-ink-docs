@@ -2,7 +2,7 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 2.1.0 — iPhone & iPad 2026-10-29 · Mac 2026-10-29
+## 2.1.0 — iPhone & iPad 2026-10-29 · Mac 2026-10-29 · Apple Vision Pro 2026-10-31
 
 - **Sign once, reuse it:** Sign can keep your signature or initials for next time, stored on this device only, and
   add stamps — Approved, Paid, Draft, Confidential, Received, today's date or a word of your own.

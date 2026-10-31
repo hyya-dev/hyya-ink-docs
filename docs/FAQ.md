@@ -68,16 +68,17 @@ today, so nothing is asked there.
 ### What about the AI features?
 AI is strictly **opt-in and bring-your-own-key (BYOK)**. Nothing is sent anywhere
 unless you explicitly run an AI action. When you do, only the open document's text
-goes to the provider *you* configured with *your* key. hYYa ink has no AI server of
-its own and never proxies your content.
+goes to the provider *you* configured with *your* key. On a PDF, that is the PDF's own text,
+for Explain, Summarize and Translate. hYYa ink has no AI server of its own and never proxies your
+content.
 
 Want no network at all? On **macOS** you can point hYYa ink at a local model server
 (Ollama or LM Studio) running on your own Mac — then nothing leaves the machine. Local
 servers aren't offered on iPhone, iPad or Android, so every provider choice there is a
 cloud one. hYYa ink has **no on-device AI language model** on any platform.
 
-Every AI result says **Written by AI** and names the model. Explain and
-Summarize results also carry an invisible mark that says so, which travels with the text
+Every AI result says **Written by AI** and names the model. Explain, Summarize and
+Translate results also carry an invisible mark that says so, which travels with the text
 when you copy it — [how it works](AI-MARKING.md).
 
 ### macOS says "Apple could not verify … is free of malware" when I open a file with hYYa ink

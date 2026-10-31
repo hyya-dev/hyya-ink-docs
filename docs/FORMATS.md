@@ -66,7 +66,9 @@ Element tree with attributes, collapsible by node.
 ### CSV & TSV (`.csv`, `.tsv`)
 A real **spreadsheet-style grid** with aligned columns and headers — not comma
 soup. Pro lets you edit cells right in the grid. Only the cell you change is written; the rest
-of the file stays exactly as it was.
+of the file stays exactly as it was. Pro also sorts by a column, filters rows and finds and
+replaces. Sorting and filtering change only the view until you choose **Save sorted**. Under the
+table is a count of rows and columns.
 
 ### Jupyter notebooks (`.ipynb`)
 Cells rendered in order — Markdown cells as prose, code cells in monospace, and
