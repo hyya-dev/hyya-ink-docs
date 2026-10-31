@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.1.1 — on Google Play 2026-10-31
+
+- The upgrade screen now says the AI actions need your own AI key.
+
 ## 2.1.0 — iPhone & iPad 2026-10-29 · Mac 2026-10-29 · Apple Vision Pro 2026-10-31
 
 - **Sign once, reuse it:** Sign can keep your signature or initials for next time, stored on this device only, and
