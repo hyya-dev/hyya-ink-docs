@@ -2,6 +2,11 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.1.1 — iPhone & iPad 2026-11-01 · Mac 2026-11-01
+
+- Tapping Edit or Split as a free reader now opens the upgrade screen, where the button used to do nothing.
+- The upgrade screen now says the AI actions need your own AI key, and the free trial's tooltip says you are not charged.
+
 ## Android 2.1.1 — on Google Play 2026-10-31
 
 - The upgrade screen now says the AI actions need your own AI key.
