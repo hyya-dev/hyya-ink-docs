@@ -2,6 +2,12 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.1.2 — iPhone & iPad 2026-11-02
+
+- **Erase:** a new choice beside Redact and Replace. It removes the words you choose and leaves clean white space, in a
+  new file.
+- Redact and Mark Up Text now work on rows of labels and values, where the words used to give the app no position on the page.
+
 ## Android 2.1.2 — on Google Play 2026-11-02
 
 - **Erase:** a new choice beside Redact and Replace. It removes the words you choose and leaves clean white space.
