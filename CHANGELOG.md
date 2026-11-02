@@ -9,6 +9,7 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   marks you have not saved.
 - A redaction bar now always covers the whole line, and pictures on a redacted page leave the file with it.
 - Make Searchable finds the words in a scan again, and the text you keep on a redacted page stays searchable.
+- The hint under the page now says that marks wait for Save copy, in every language.
 
 ## 2.1.1 — iPhone & iPad 2026-11-01 · Mac 2026-11-01
 
