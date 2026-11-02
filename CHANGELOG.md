@@ -2,6 +2,14 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.1.2 — on Google Play 2026-11-02
+
+- **Erase:** a new choice beside Redact and Replace. It removes the words you choose and leaves clean white space.
+- Redact and Replace now gather on the page, and Save copy writes them all into one new file. Back asks before dropping
+  marks you have not saved.
+- A redaction bar now always covers the whole line, and pictures on a redacted page leave the file with it.
+- Make Searchable finds the words in a scan again, and the text you keep on a redacted page stays searchable.
+
 ## 2.1.1 — iPhone & iPad 2026-11-01 · Mac 2026-11-01
 
 - Tapping Edit or Split as a free reader now opens the upgrade screen, where the button used to do nothing.
