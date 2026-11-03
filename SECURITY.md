@@ -4,9 +4,9 @@
 
 If you find a security problem in hYYa ink — a file that makes the app run code, leak data or
 crash in a way someone could abuse, a way to read the AI key you saved, anything like that —
-please tell us **privately** by e-mail at **[security@hyya.com](mailto:security@hyya.com)**, or
+please tell us **privately** by **[e-mail to our security team](mailto:security@hyya.com?subject=hYYa%20ink%20security%20report)**, or
 through the contact form at [hyya.com/#contact](https://hyya.com/#contact). In hYYa ink,
-**Settings → Help and more → Report a security issue** opens an e-mail to it.
+**Settings → Help and more → Report a security issue** opens the same e-mail.
 
 **Please don't open a public issue for it.** Issues in this repository are public the moment
 they are filed, and a problem described here before it is fixed puts every reader at risk.

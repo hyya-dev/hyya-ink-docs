@@ -159,7 +159,7 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   are labelled **AI**. Explain and Summarize results also carry an invisible mark that travels with the
   text when you copy it — [how it works](docs/AI-MARKING.md).
 - **Report a security issue** — **Settings → Help and more → Report a security issue** opens an e-mail
-  to security@hyya.com.
+  to our security team.
 - **Age check where a law requires it** — hYYa ink asks the App Store for an age range only where Apple
   says a law applies (none applies to the Mac today, so the Mac asks nothing). Only the age band is kept, in memory, for that session — never stored, never sent.
 - **Save as another format (Mac)** — saving a document as another format shows it as that format at once.
@@ -199,7 +199,7 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
   errors now ask the AI to keep your wording — Reformat to change only the layout, Fix errors only
   the mistakes.
 - **Report a security issue** — **Settings → Help and more → Report a security issue** opens an
-  e-mail to security@hyya.com.
+  e-mail to our security team.
 - **Age check where a law requires it** — hYYa ink checks with Google Play, silently, for an age
   range; Google shares one only where a law requires it. Only the age band is kept, in memory, for
   that session — never stored, never sent.
