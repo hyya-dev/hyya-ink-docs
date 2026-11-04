@@ -2,6 +2,12 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.1.3 — on Google Play 2026-11-04
+
+- Settings → Help and more → **Sources & Attribution** lists the libraries the app uses and their licences.
+- "Report a security issue" opens an e-mail without showing an address on screen.
+- Settings now ends with the hyya.com card.
+
 ## 2.1.2 — iPhone & iPad 2026-11-02 · Mac 2026-11-03 · Apple Vision Pro 2026-11-03
 
 - **Erase** (iPhone, iPad and Mac): a new choice beside Redact and Replace. It removes the words you choose and leaves
