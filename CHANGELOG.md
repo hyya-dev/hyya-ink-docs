@@ -7,6 +7,7 @@ All notable changes to hYYa ink. **→ [Download the latest version](https://hyy
 - Settings → Help and more → **Sources & Attribution** lists the libraries the app uses and their licences.
 - "Report a security issue" opens an e-mail without showing an address on screen.
 - Settings now ends with the hyya.com card.
+- The rating card and the hyya.com card now open with a tap anywhere on them.
 
 ## 2.1.2 — iPhone & iPad 2026-11-02 · Mac 2026-11-03 · Apple Vision Pro 2026-11-03
 
