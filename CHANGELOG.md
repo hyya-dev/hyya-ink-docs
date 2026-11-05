@@ -2,7 +2,7 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 2.1.3 — Apple Vision Pro 2026-11-04
+## 2.1.3 — Apple Vision Pro 2026-11-04 · iPhone & iPad 2026-11-05
 
 - Settings → Help and more → **Sources & Attribution** lists the libraries the app uses and their licences.
 - Markdown code blocks no longer show a gap between their lines.
