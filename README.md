@@ -54,7 +54,7 @@ Full breakdown of what each format renders → **[docs/FORMATS.md](docs/FORMATS.
 - **macOS** 14+ — Mac App Store
 - **iPadOS / iOS** 17+ — App Store (Universal Purchase with the Mac app)
 - **Apple Vision Pro** — visionOS 26+, native — App Store (the same Universal Purchase)
-- **Android** 9+ — Google Play
+- **Android** 12+ — Google Play
 
 ## Pricing
 
