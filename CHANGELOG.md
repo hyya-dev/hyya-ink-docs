@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.1.4 — iPhone & iPad 2026-11-06
+
+- The same app as 2.1.3, with a new look on the App Store page.
+
 ## 2.1.3 — Apple Vision Pro 2026-11-04 · iPhone & iPad 2026-11-05
 
 - Settings → Help and more → **Sources & Attribution** lists the libraries the app uses and their licences.
