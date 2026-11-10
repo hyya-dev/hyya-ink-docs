@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.1.5 — Mac 2026-11-09
+
+- The same app as 2.1.3, now called **hYYa ink: Markdown & JSON** on the App Store.
+
 ## 2.1.4 — iPhone & iPad 2026-11-06
 
 - The same app as 2.1.3, with a new look on the App Store page.
