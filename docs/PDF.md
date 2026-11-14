@@ -40,7 +40,7 @@ and you type.
 
 ## Sign by hand
 
-1. Tap **Sign** (on iPhone, in the **•••** Tools menu)
+1. Tap **Sign** (on iPhone, in the **•••** Tools menu; on the Mac and Android, choose **Fill & Sign**, then **Sign**)
 2. Draw your signature — choose **black or blue ink** — and tap **Add signature**
 3. Place it on the page: drag to position, pinch or use the on-screen buttons to
    resize and rotate

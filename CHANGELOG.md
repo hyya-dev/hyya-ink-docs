@@ -2,6 +2,17 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.2.0 — Mac 2026-11-14
+
+- **Find** now works in Markdown, JSON, YAML, TOML, XML and code files, with the same find bar as PDFs.
+- **Fill & Sign is now the one place to sign a PDF:** type, tick, add the date and sign from one band.
+- Fill & Sign is free to try: type and sign on the page, and Pro is asked for only when you save or print the copy.
+- **Highlight Text** is the new name for Mark Up Text.
+- The menus carry every document command, with keyboard shortcuts.
+- "Saved" appears when a copy is written, and messages when something goes wrong are plainer.
+- Markdown tables size each column to its widest cell, and right-to-left tables read from the right.
+- For security reasons, the app no longer runs as a modified copy.
+
 ## Android 2.2.0 — on Google Play 2026-11-14
 
 - **Find** now works in Markdown, JSON, YAML, TOML, XML and code files, with the same find bar as PDFs. In a JSON tree it
