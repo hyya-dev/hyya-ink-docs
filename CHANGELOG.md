@@ -2,6 +2,17 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.2.0 — on Google Play 2026-11-14
+
+- **Find** now works in Markdown, JSON, YAML, TOML, XML and code files, with the same find bar as PDFs. In a JSON tree it
+  opens the branches that hold each match.
+- **Fill & Sign is now the one place to sign a PDF:** type, tick, add the date and sign from one band.
+- Fill & Sign is free to try: type and sign on the page, and Pro is asked for only when you save or print the copy.
+- A short note in the last two days of the free trial, and plainer messages when something goes wrong.
+- Markdown exported to PDF shows the formatting, not the symbols, and nested lists keep their indent.
+- The Fill & Sign band fits on narrow screens in every language.
+- For security reasons, the app no longer runs on rooted phones or modified copies.
+
 ## 2.1.5 — Mac 2026-11-09 · iPhone & iPad 2026-11-10
 
 - The same app as 2.1.3 (2.1.4 on iPhone and iPad), now called **hYYa ink: Markdown & JSON** on the App Store.
