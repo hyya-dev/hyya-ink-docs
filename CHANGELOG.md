@@ -2,6 +2,16 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.2.1 — on Google Play 2026-11-16
+
+- Wide Markdown tables fit the screen: the widest column gives up the room, and short cells stay whole.
+- Tables, CSV and TSV grids and paragraphs read in their own direction, so an Arabic or Hebrew table starts on the right
+  and an English one on the left, whatever the app's language.
+- An Arabic or Hebrew table keeps its direction when the document is exported to PDF or saved as a web page.
+- Arabic, Hebrew and Chinese, Japanese or Korean text in CSV cells shows in the app's own font.
+- Markdown exported to PDF keeps bold, italic and code marks together across a line.
+- Very large or unusual Markdown files open quickly and safely.
+
 ## 2.2.0 — Mac 2026-11-14
 
 - **Find** now works in Markdown, JSON, YAML, TOML, XML and code files, with the same find bar as PDFs.
