@@ -40,7 +40,7 @@ and you type.
 
 ## Sign by hand
 
-1. Tap **Sign** (on iPhone, in the **•••** Tools menu; on the Mac and Android, choose **Fill & Sign**, then **Sign**)
+1. Choose **Fill & Sign**, then **Sign** (on Apple Vision Pro, tap **Sign**)
 2. Draw your signature — choose **black or blue ink** — and tap **Add signature**
 3. Place it on the page: drag to position, pinch or use the on-screen buttons to
    resize and rotate
@@ -176,7 +176,7 @@ in the **⋮** Tools menu.
 | **Compress** | The exact before-and-after size is shown before you save. |
 | **Watermark** | Live preview as you set the wording and strength. |
 | **Compare** | See which pages differ from another PDF. On Mac, iPad and iPhone it compares the words on each page; on Android it compares how each page looks. |
-| **Mark Up Text** | Highlight, underline or strike through selected text (on Android, drag across the words). |
+| **Highlight Text** | Highlight, underline or strike through selected text (on Android, drag across the words). |
 | **Images to PDF** | Make one PDF from photos or pictures. |
 | **PDF to Images** | Save pages as PNG or JPEG pictures. |
 | **Extract Pages** | Copy chosen pages to a new PDF, or split a PDF into several files. The parts of a password-protected PDF keep its password. |
@@ -227,7 +227,7 @@ Exporting to PDF is **free**. On Mac, iPhone, iPad and Apple Vision Pro it is **
 | Sign by hand, saved signatures and stamps | | ✅ |
 | Mark up by hand | | ✅ |
 | Save a copy with your edits | | ✅ |
-| Mark Up Text, Redact & Replace, Make Searchable, Organise Pages, Protect, Compress, Watermark, Compare, Images to PDF, PDF to Images, Extract Pages, Remove Password | | ✅ |
+| Highlight Text, Redact & Replace, Make Searchable, Organise Pages, Protect, Compress, Watermark, Compare, Images to PDF, PDF to Images, Extract Pages, Remove Password | | ✅ |
 | AI actions *(on a PDF: Explain, Summarize and Translate)* | | ✅ |
 
 Pro is a **one-time purchase**, not a subscription, and unlocks across all your Apple

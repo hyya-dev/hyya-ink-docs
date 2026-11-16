@@ -2,6 +2,23 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.2.1 — Apple Vision Pro 2026-11-16 · iPhone & iPad 2026-11-16
+
+- **Find** now works in Markdown, JSON, YAML, TOML, XML and code files, with the same find bar as PDFs.
+- On iPhone and iPad, **Fill & Sign is now the one place to sign a PDF:** type, tick, add the date and sign from one
+  band. It is free to try: type and sign on the page, and Pro is asked for only when you save or print the copy.
+  Apple Vision Pro keeps **Sign**.
+- **Highlight Text** is the new name for Mark Up Text.
+- On iPad, keyboard shortcuts for every document command.
+- "Saved" appears when a copy is written, and messages when something goes wrong are plainer.
+- Wide Markdown tables fit the screen: the widest column gives up the room, and short cells stay whole.
+- Tables, CSV and TSV grids and paragraphs read in their own direction, so an Arabic or Hebrew table starts on the right
+  and an English one on the left, whatever the app's language. They keep it in PDF and web-page exports.
+- Arabic, Hebrew and Chinese, Japanese or Korean text in CSV cells shows in the app's own font.
+- Documents follow the system text size.
+- Save As works again on iOS 26.
+- For security reasons, the app no longer runs on jailbroken devices or as a modified copy.
+
 ## Android 2.2.1 — on Google Play 2026-11-16
 
 - Wide Markdown tables fit the screen: the widest column gives up the room, and short cells stay whole.
