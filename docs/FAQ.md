@@ -54,6 +54,8 @@ No. All parsing, rendering, PDF handling and signing happen **on your device**, 
 there is no account and no server. The Apple apps send no telemetry at all. On Android,
 Google's built-in text-recognition library sends Google its own diagnostics (for example
 the device model and performance figures) — never your documents.
+On the Mac, from 2.2.2, the app also downloads a small public file from hyya.com that says when hYYa apps are on
+sale. It sends nothing about you or your documents.
 
 ### Does hYYa ink ask my age?
 On Android, hYYa ink checks with Google Play whether it has an age range for you. Google

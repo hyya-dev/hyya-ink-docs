@@ -2,6 +2,12 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.2.2 — Mac 2026-11-23
+
+- A short notice when hYYa apps are on sale, shown once per sale; close it with ✕.
+- Settings names your plan plainly: **Reading only** until you unlock Pro.
+- Prepared for the new app-store age laws: where a law applies, hYYa ink keeps only the age band, on your device, for that session. Apple reports no such law for the Mac today, so nothing is asked.
+
 ## 2.2.1 — Mac 2026-11-16
 
 - Wide Markdown tables fit the window: the widest column gives up the room, and short cells stay whole.
