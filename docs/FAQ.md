@@ -64,6 +64,8 @@ the age band, on your device, for that session — it is never stored and never 
 On iPhone and iPad, hYYa ink asks the App Store for an age range only where Apple says a law
 applies; the App Store may then show its own question. The same rule holds: only the age band,
 on your device, for that session.
+From 2.2.2 on iPhone and iPad, the app also keeps the date of its last check on the device (never backed up,
+never sent), so it asks after installing and then at most once a year.
 On the Mac, hYYa ink follows the same rule; Apple does not report a law that applies to the Mac
 today, so nothing is asked there.
 
