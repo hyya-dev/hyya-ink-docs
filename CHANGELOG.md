@@ -2,11 +2,12 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
-## 2.2.2 — Apple Vision Pro 2026-11-24
+## 2.2.2 — Apple Vision Pro 2026-11-24 · iPhone & iPad 2026-11-25
 
 - A short notice when hYYa apps are on sale, shown once per sale; close it with ✕.
 - Settings names your plan plainly: **Reading only** until you unlock Pro.
 - With two hYYa ink windows open, a file picker opens in the window that asked for it.
+- On iPhone and iPad, where a law requires an age check, it now comes after installing and then at most once a year, not at every launch.
 
 ## 2.2.2 — Mac 2026-11-23
 
