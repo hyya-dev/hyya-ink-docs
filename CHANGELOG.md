@@ -11,7 +11,7 @@ New since Android 2.2.1:
 - Where a law requires an age check, it comes after installing and then at most once a year, not at every launch.
 - Google Play's own rating request may now also appear when you come back from choosing another file, once you have read a few different files over more than one visit. It never comes while you are reading, never right after you have said "Not now" to Pro, and at most once per version.
 
-## 2.2.3 — iPhone & iPad 2026-11-26
+## 2.2.3 — Apple Vision Pro 2026-11-27 · iPhone & iPad 2026-11-26
 
 - Apple's own rating request may now also appear when you close a document, once you have read a few different files over more than one visit. It never comes while you are reading, never right after you have said "Not now" to Pro, and at most once per version.
 
