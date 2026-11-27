@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.2.3 — iPhone & iPad 2026-11-26
+
+- Apple's own rating request may now also appear when you close a document, once you have read a few different files over more than one visit. It never comes while you are reading, never right after you have said "Not now" to Pro, and at most once per version.
+
 ## 2.2.2 — Apple Vision Pro 2026-11-24 · iPhone & iPad 2026-11-24
 
 - A short notice when hYYa apps are on sale, shown once per sale; close it with ✕.
