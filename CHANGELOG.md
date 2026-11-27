@@ -2,6 +2,15 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.2.3 — on Google Play 2026-11-27
+
+New since Android 2.2.1:
+
+- A short notice when hYYa apps are on sale, shown once per sale; close it with ✕.
+- Settings names your plan plainly: **Reading only** until you unlock Pro.
+- Where a law requires an age check, it comes after installing and then at most once a year, not at every launch.
+- Google Play's own rating request may now also appear when you come back from choosing another file, once you have read a few different files over more than one visit. It never comes while you are reading, never right after you have said "Not now" to Pro, and at most once per version.
+
 ## 2.2.3 — iPhone & iPad 2026-11-26
 
 - Apple's own rating request may now also appear when you close a document, once you have read a few different files over more than one visit. It never comes while you are reading, never right after you have said "Not now" to Pro, and at most once per version.
