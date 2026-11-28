@@ -2,6 +2,13 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## 2.2.4 — iPhone & iPad 2026-11-28
+
+- Fill & Sign: type, tick, date and sign right on the page. Saving the signed copy needs Pro or the 7-day trial.
+- hYYa ink asks before closing a PDF whose highlights, underlines or strikethroughs are not saved yet, and Save Copy keeps your marks.
+- Open With in the Files app lists hYYa ink, and a file opens even while hYYa ink is already running.
+- The **Rate the App** card in Settings goes away for good once you have tapped it to rate hYYa ink.
+
 ## Android 2.2.4 — on Google Play 2026-11-28
 
 - The **Rate the App** card in Settings goes away for good once you have tapped it to rate hYYa ink.
