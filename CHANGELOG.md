@@ -2,6 +2,10 @@
 
 All notable changes to hYYa ink. **→ [Download the latest version](https://hyya.com/hyya-ink.html)**
 
+## Android 2.2.4 — on Google Play 2026-11-28
+
+- The **Rate the App** card in Settings goes away for good once you have tapped it to rate hYYa ink.
+
 ## Android 2.2.3 — on Google Play 2026-11-27
 
 New since Android 2.2.1:
